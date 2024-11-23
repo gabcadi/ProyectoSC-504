@@ -249,8 +249,8 @@ create or replace package body fide_universidad_sabiduria_pkg_funciones as
    ) return varchar2 is
    begin
       update fide_horario_tb
-         set dia_semana = p_dia_semana,
-             turno = p_turno,
+         set v_dia_semana = p_dia_semana,
+             v_turno = p_turno,
              id_estado = p_id_estado
        where id_horario = p_id_horario;
 
