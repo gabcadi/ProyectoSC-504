@@ -8,10 +8,10 @@ CREATE OR REPLACE PROCEDURE FIDE_CURSO_TB_INSERTAR_CURSO_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para insertar el curso
+    -- Llamar a la funciÃ³n para insertar el curso
     P_ID_CURSO := FIDE_INSERTAR_CURSO(P_NOMBRE, P_CREDITOS, P_CUPOS, P_ID_ESTADO);
     
-    -- Puedes agregar aquí cualquier otro proceso que desees hacer, como registros adicionales o actualizaciones
+    -- Puedes agregar aquÃ­ cualquier otro proceso que desees hacer, como registros adicionales o actualizaciones
 END;
 /
 --- ACTUALIZAR CURSO ---
@@ -24,7 +24,7 @@ CREATE OR REPLACE PROCEDURE FIDE_CURSO_TB_EDITAR_CURSO_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para editar el curso
+    -- Llamar a la funciÃ³n para editar el curso
     P_RESULTADO := FIDE_EDITAR_CURSO(P_ID_CURSO, P_NOMBRE, P_CREDITOS, P_CUPOS);
 END;
 /
@@ -35,7 +35,7 @@ CREATE OR REPLACE PROCEDURE FIDE_CURSO_TB_CAMBIAR_ESTADO_CURSO_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para cambiar el estado del curso a 0
+    -- Llamar a la funciÃ³n para cambiar el estado del curso a 0
     P_RESULTADO := FIDE_CAMBIAR_ESTADO_CURSOS(P_ID_CURSO);
 END;
 
@@ -55,7 +55,7 @@ CREATE OR REPLACE PROCEDURE FIDE_USUARIO_TB_REGISTRAR_DOCENTE_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para registrar el docente
+    -- Llamar a la funciÃ³n para registrar el docente
     P_ID_USUARIO := FIDE_REGISTRAR_DOCENTE(P_NOMBRE, P_PRIMER_APELLIDO, P_SEGUNDO_APELLIDO, 
                                             P_CORREO, P_TIPO_USUARIO, P_CODIGO_PAIS, 
                                             P_TELEFONO, P_ID_DIRECCION, P_ID_ESPECIALIZACION);
@@ -77,7 +77,7 @@ CREATE OR REPLACE PROCEDURE FIDE_USUARIO_TB_EDITAR_DOCENTE_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para editar el docente
+    -- Llamar a la funciÃ³n para editar el docente
     P_RESULTADO := FIDE_EDITAR_DOCENTE(P_ID_USUARIO, P_NOMBRE, P_PRIMER_APELLIDO, 
                                        P_SEGUNDO_APELLIDO, P_CORREO, P_TIPO_USUARIO, 
                                        P_CODIGO_PAIS, P_TELEFONO, P_ID_DIRECCION, 
@@ -95,7 +95,7 @@ CREATE OR REPLACE PROCEDURE FIDE_AULAS_TB_AGREGAR_AULA_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para agregar el aula
+    -- Llamar a la funciÃ³n para agregar el aula
     P_ID_AULA := FIDE_AULAS_TB_AGREGAR_FN(P_NOMBRE_AULA, P_CAPACIDAD, P_ID_ESTADO);
 END;
 
@@ -109,7 +109,7 @@ CREATE OR REPLACE PROCEDURE FIDE_HORARIO_TB_AGREGAR_HORARIO_SP (
 ) 
 IS
 BEGIN
-    -- Llamar a la función para agregar el horario
+    -- Llamar a la funciÃ³n para agregar el horario
     P_ID_HORARIO := FIDE_HORARIO_TB_AGREGAR_FN(P_DIA_SEMANA, P_TURNO, P_ID_ESTADO);
 END;
 
@@ -124,7 +124,7 @@ CREATE OR REPLACE PROCEDURE FIDE_HORARIO_TB_EDITAR_HORARIO_SP(
 ) 
 IS
 BEGIN
-    -- Llamar a la función para editar el horario
+    -- Llamar a la funciÃ³n para editar el horario
     P_RESULTADO := FIDE_HORARIO_TB_EDITAR_FN(P_ID_HORARIO, P_DIA_SEMANA, P_TURNO, P_ID_ESTADO);
 END;
 /
