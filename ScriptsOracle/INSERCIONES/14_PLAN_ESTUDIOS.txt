@@ -1,0 +1,151 @@
+ID_PLAN_ESTUDIOS,NOMBRE_CARRERA,ID_ESTADO
+1,Education,1
+2,Criminal Justice,1
+3,Psychology,2
+4,Education,1
+5,Business Administration,2
+6,Nursing,2
+7,Engineering,1
+8,Graphic Design,2
+9,Psychology,1
+10,Business Administration,1
+11,Biology,2
+12,Criminal Justice,1
+13,Criminal Justice,2
+14,Biology,1
+15,Business Administration,2
+16,Biology,1
+17,Education,2
+18,Business Administration,2
+19,Marketing,1
+20,Psychology,2
+21,Psychology,1
+22,Nursing,1
+23,Education,1
+24,Computer Science,2
+25,Education,1
+26,Marketing,2
+27,Engineering,2
+28,Business Administration,1
+29,Nursing,2
+30,Engineering,2
+31,Computer Science,2
+32,Nursing,1
+33,Marketing,2
+34,Nursing,2
+35,Nursing,1
+36,Business Administration,1
+37,Marketing,2
+38,Engineering,2
+39,Engineering,2
+40,Graphic Design,1
+41,Psychology,2
+42,Nursing,2
+43,Graphic Design,2
+44,Psychology,1
+45,Nursing,1
+46,Marketing,2
+47,Business Administration,1
+48,Nursing,1
+49,Biology,2
+50,Criminal Justice,2
+51,Criminal Justice,2
+52,Engineering,2
+53,Engineering,2
+54,Nursing,1
+55,Engineering,2
+56,Graphic Design,2
+57,Psychology,2
+58,Engineering,1
+59,Computer Science,1
+60,Engineering,2
+61,Criminal Justice,1
+62,Marketing,2
+63,Biology,2
+64,Computer Science,2
+65,Nursing,2
+66,Biology,1
+67,Psychology,2
+68,Nursing,2
+69,Education,2
+70,Computer Science,2
+71,Nursing,2
+72,Psychology,1
+73,Business Administration,1
+74,Education,2
+75,Engineering,2
+76,Education,2
+77,Psychology,2
+78,Business Administration,1
+79,Nursing,2
+80,Criminal Justice,1
+81,Biology,2
+82,Education,1
+83,Graphic Design,1
+84,Biology,2
+85,Nursing,2
+86,Computer Science,1
+87,Biology,1
+88,Engineering,1
+89,Business Administration,1
+90,Computer Science,1
+91,Nursing,1
+92,Biology,2
+93,Marketing,2
+94,Engineering,1
+95,Marketing,2
+96,Psychology,1
+97,Computer Science,2
+98,Engineering,1
+99,Criminal Justice,2
+100,Biology,2
+101,Education,1
+102,Graphic Design,2
+103,Psychology,2
+104,Graphic Design,2
+105,Psychology,1
+106,Graphic Design,2
+107,Education,1
+108,Criminal Justice,1
+109,Nursing,1
+110,Education,1
+111,Criminal Justice,1
+112,Nursing,2
+113,Psychology,1
+114,Biology,2
+115,Business Administration,2
+116,Marketing,1
+117,Psychology,2
+118,Nursing,2
+119,Criminal Justice,2
+120,Graphic Design,1
+121,Criminal Justice,2
+122,Computer Science,2
+123,Psychology,2
+124,Biology,1
+125,Psychology,1
+126,Marketing,2
+127,Computer Science,1
+128,Computer Science,1
+129,Biology,1
+130,Marketing,2
+131,Education,2
+132,Nursing,1
+133,Business Administration,2
+134,Business Administration,1
+135,Nursing,1
+136,Business Administration,1
+137,Criminal Justice,2
+138,Biology,2
+139,Marketing,1
+140,Nursing,1
+141,Graphic Design,1
+142,Criminal Justice,1
+143,Graphic Design,1
+144,Biology,1
+145,Computer Science,2
+146,Marketing,2
+147,Education,2
+148,Marketing,2
+149,Education,2
+150,Nursing,1
