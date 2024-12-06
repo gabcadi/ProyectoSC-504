@@ -19,8 +19,8 @@ create or replace package fide_universidad_sabiduria_pkg_funciones as
       p_id_curso in number
    ) return varchar2;
 
-    -- Funciones relacionadas con docentes
-   function fide_usuario_tb_registrar_docente_fn (
+    -- Funciones relacionadas con usuarios
+   function fide_usuario_tb_registrar_usuario_fn (
       p_nombre             in varchar2,
       p_primer_apellido    in varchar2,
       p_segundo_apellido   in varchar2,
@@ -32,7 +32,7 @@ create or replace package fide_universidad_sabiduria_pkg_funciones as
       p_id_especializacion in number
    ) return number;
 
-   function fide_usuario_tb_editar_docente_fn (
+   function fide_usuario_tb_editar_usuario_fn (
       p_id_usuario         in number,
       p_nombre             in varchar2,
       p_primer_apellido    in varchar2,
@@ -130,7 +130,7 @@ create or replace package body fide_universidad_sabiduria_pkg_funciones as
       end if;
    end;
 
-   function fide_usuario_tb_registrar_docente_fn (
+   function fide_usuario_tb_registrar_usuario_fn (
       p_nombre             in varchar2,
       p_primer_apellido    in varchar2,
       p_segundo_apellido   in varchar2,
@@ -168,7 +168,7 @@ create or replace package body fide_universidad_sabiduria_pkg_funciones as
       return v_id_usuario;
    end;
 
-   function fide_usuario_tb_editar_docente_fn (
+   function fide_usuario_tb_editar_usuario_fn (
       p_id_usuario         in number,
       p_nombre             in varchar2,
       p_primer_apellido    in varchar2,
