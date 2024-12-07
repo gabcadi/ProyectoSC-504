@@ -1,0 +1,1001 @@
+ID_CURSO,NOMBRE,CREDITOS,CUPOS,ID_ESTADO
+1,Introduction to Psychology,4,22,2
+2,Chemistry Lab,4,31,1
+3,Computer Science 101,3,16,2
+4,Computer Science 101,2,26,1
+5,Philosophy of Ethics,3,23,2
+6,History of Art,3,25,2
+7,Introduction to Psychology,3,26,2
+8,Chemistry Lab,2,25,2
+9,History of Art,2,24,1
+10,Statistics for Business,3,14,2
+11,Environmental Studies,3,20,2
+12,Introduction to Psychology,2,16,2
+13,Literature and Society,2,15,2
+14,Literature and Society,2,33,1
+15,Environmental Studies,2,26,1
+16,Statistics for Business,3,24,2
+17,History of Art,3,22,1
+18,Philosophy of Ethics,3,15,1
+19,Public Speaking,3,35,1
+20,Statistics for Business,2,14,1
+21,Introduction to Psychology,4,21,2
+22,Statistics for Business,2,20,2
+23,Literature and Society,2,15,1
+24,Music Theory,4,32,1
+25,Chemistry Lab,2,17,1
+26,Introduction to Psychology,2,14,2
+27,Music Theory,3,27,2
+28,Music Theory,4,17,1
+29,Computer Science 101,2,31,2
+30,Introduction to Psychology,4,34,2
+31,History of Art,3,23,1
+32,Environmental Studies,4,28,2
+33,Public Speaking,2,14,1
+34,Music Theory,2,23,2
+35,Music Theory,3,22,2
+36,Chemistry Lab,3,16,1
+37,Chemistry Lab,4,31,1
+38,Introduction to Psychology,4,16,2
+39,Philosophy of Ethics,2,34,2
+40,Music Theory,2,18,1
+41,Computer Science 101,4,21,1
+42,Computer Science 101,2,26,2
+43,Philosophy of Ethics,3,21,2
+44,History of Art,4,17,2
+45,History of Art,3,30,2
+46,Public Speaking,2,27,1
+47,Literature and Society,4,19,1
+48,Environmental Studies,4,26,1
+49,Music Theory,3,15,2
+50,Environmental Studies,3,31,1
+51,Music Theory,3,30,2
+52,Literature and Society,4,29,1
+53,Music Theory,2,34,1
+54,Chemistry Lab,3,27,2
+55,Music Theory,2,20,1
+56,Environmental Studies,4,19,1
+57,Computer Science 101,4,17,1
+58,Introduction to Psychology,2,16,1
+59,Environmental Studies,2,31,2
+60,Philosophy of Ethics,3,29,1
+61,History of Art,3,20,1
+62,Introduction to Psychology,2,33,1
+63,History of Art,2,32,1
+64,Music Theory,2,16,1
+65,Music Theory,4,35,2
+66,Music Theory,2,18,1
+67,Literature and Society,2,19,2
+68,Music Theory,4,17,1
+69,Literature and Society,2,17,2
+70,Music Theory,4,23,2
+71,History of Art,3,16,2
+72,Statistics for Business,2,14,2
+73,Computer Science 101,2,15,2
+74,Music Theory,4,28,1
+75,Music Theory,2,26,1
+76,Literature and Society,2,16,2
+77,Music Theory,2,25,1
+78,Statistics for Business,4,35,1
+79,Philosophy of Ethics,4,25,1
+80,Chemistry Lab,4,22,2
+81,Introduction to Psychology,4,24,2
+82,Philosophy of Ethics,3,17,2
+83,Philosophy of Ethics,2,26,2
+84,Public Speaking,3,16,2
+85,Philosophy of Ethics,4,24,1
+86,Chemistry Lab,3,18,2
+87,Philosophy of Ethics,2,23,1
+88,Chemistry Lab,4,22,2
+89,History of Art,2,21,1
+90,Environmental Studies,3,22,1
+91,Statistics for Business,2,16,2
+92,Literature and Society,3,26,1
+93,Literature and Society,4,35,2
+94,Literature and Society,3,24,1
+95,Environmental Studies,4,33,2
+96,Statistics for Business,4,19,1
+97,Music Theory,2,22,1
+98,Literature and Society,2,16,2
+99,Literature and Society,2,35,1
+100,Statistics for Business,3,16,1
+101,Public Speaking,2,17,1
+102,Environmental Studies,2,28,2
+103,Chemistry Lab,3,24,1
+104,History of Art,2,35,1
+105,Literature and Society,4,28,2
+106,Literature and Society,4,20,1
+107,Introduction to Psychology,2,25,2
+108,Music Theory,3,17,1
+109,Statistics for Business,4,29,2
+110,Statistics for Business,3,33,2
+111,Philosophy of Ethics,2,28,2
+112,Public Speaking,3,25,2
+113,Literature and Society,4,25,1
+114,Literature and Society,3,33,1
+115,Literature and Society,3,20,1
+116,Philosophy of Ethics,3,17,2
+117,Environmental Studies,4,26,1
+118,Chemistry Lab,2,31,1
+119,Introduction to Psychology,4,16,2
+120,Literature and Society,2,34,2
+121,Chemistry Lab,4,28,1
+122,Public Speaking,4,18,1
+123,Computer Science 101,3,33,1
+124,History of Art,2,25,2
+125,Introduction to Psychology,3,33,1
+126,Philosophy of Ethics,4,16,2
+127,History of Art,2,26,1
+128,Computer Science 101,4,16,2
+129,Chemistry Lab,2,24,2
+130,Philosophy of Ethics,4,23,1
+131,Literature and Society,4,24,1
+132,Statistics for Business,4,21,1
+133,History of Art,2,27,1
+134,History of Art,4,14,1
+135,Music Theory,4,25,2
+136,Introduction to Psychology,2,14,1
+137,Philosophy of Ethics,4,18,2
+138,Music Theory,4,16,1
+139,Environmental Studies,3,35,2
+140,Introduction to Psychology,3,19,2
+141,Public Speaking,2,21,1
+142,Literature and Society,2,22,2
+143,Chemistry Lab,4,26,2
+144,Statistics for Business,3,21,1
+145,Chemistry Lab,4,17,2
+146,Philosophy of Ethics,2,29,1
+147,History of Art,4,32,2
+148,Music Theory,4,26,1
+149,Chemistry Lab,3,20,2
+150,Computer Science 101,2,16,2
+151,Philosophy of Ethics,3,16,2
+152,Introduction to Psychology,2,14,2
+153,Statistics for Business,3,15,1
+154,History of Art,4,24,1
+155,Philosophy of Ethics,4,19,1
+156,Literature and Society,2,15,2
+157,Computer Science 101,4,28,2
+158,Environmental Studies,2,20,1
+159,Literature and Society,4,17,1
+160,Chemistry Lab,4,22,2
+161,Computer Science 101,2,30,2
+162,History of Art,2,33,2
+163,Statistics for Business,2,19,1
+164,Chemistry Lab,3,27,2
+165,Statistics for Business,2,15,2
+166,Computer Science 101,4,32,2
+167,Music Theory,3,27,1
+168,Public Speaking,3,27,2
+169,Chemistry Lab,2,34,2
+170,Introduction to Psychology,4,21,2
+171,Introduction to Psychology,4,27,1
+172,Chemistry Lab,3,30,1
+173,Introduction to Psychology,3,34,2
+174,Computer Science 101,2,22,2
+175,Introduction to Psychology,2,23,2
+176,Philosophy of Ethics,3,20,2
+177,Environmental Studies,2,14,2
+178,Statistics for Business,2,35,2
+179,Public Speaking,3,18,1
+180,Chemistry Lab,2,30,1
+181,Statistics for Business,2,32,2
+182,History of Art,3,17,2
+183,Introduction to Psychology,4,27,2
+184,Computer Science 101,4,33,2
+185,Computer Science 101,4,21,1
+186,Literature and Society,3,21,2
+187,Public Speaking,2,16,1
+188,Music Theory,4,19,1
+189,Music Theory,4,16,2
+190,Introduction to Psychology,4,21,2
+191,Statistics for Business,2,32,1
+192,History of Art,4,19,1
+193,Environmental Studies,2,30,1
+194,Philosophy of Ethics,4,35,2
+195,Public Speaking,4,28,2
+196,Statistics for Business,2,30,1
+197,Statistics for Business,4,28,1
+198,History of Art,2,20,2
+199,Computer Science 101,3,20,1
+200,Public Speaking,2,30,1
+201,Computer Science 101,3,20,1
+202,Music Theory,4,35,1
+203,Literature and Society,2,22,2
+204,Statistics for Business,2,14,1
+205,Computer Science 101,4,14,2
+206,Environmental Studies,3,14,1
+207,Statistics for Business,4,33,2
+208,Introduction to Psychology,2,27,2
+209,Public Speaking,2,28,1
+210,History of Art,4,20,1
+211,History of Art,3,23,1
+212,Philosophy of Ethics,3,30,2
+213,Computer Science 101,2,15,2
+214,Literature and Society,3,30,2
+215,Environmental Studies,3,32,2
+216,Introduction to Psychology,4,22,1
+217,Statistics for Business,4,35,1
+218,Public Speaking,2,33,1
+219,Computer Science 101,2,34,2
+220,Public Speaking,4,33,1
+221,Introduction to Psychology,4,24,1
+222,Environmental Studies,2,34,2
+223,Chemistry Lab,4,14,2
+224,Chemistry Lab,3,26,1
+225,Literature and Society,3,29,1
+226,Statistics for Business,2,34,1
+227,Chemistry Lab,2,15,2
+228,History of Art,4,15,1
+229,Philosophy of Ethics,3,31,1
+230,Environmental Studies,3,30,1
+231,Music Theory,4,24,2
+232,Chemistry Lab,2,30,2
+233,Statistics for Business,2,15,1
+234,Computer Science 101,4,15,1
+235,Introduction to Psychology,4,35,2
+236,Public Speaking,4,35,2
+237,Public Speaking,2,15,1
+238,Introduction to Psychology,2,28,2
+239,Statistics for Business,4,17,2
+240,Statistics for Business,4,34,1
+241,Environmental Studies,4,31,1
+242,Music Theory,4,32,1
+243,Statistics for Business,4,30,1
+244,Literature and Society,4,28,2
+245,Computer Science 101,3,15,1
+246,Statistics for Business,3,21,1
+247,Statistics for Business,4,26,1
+248,Public Speaking,3,26,1
+249,Introduction to Psychology,4,26,2
+250,Literature and Society,3,23,2
+251,History of Art,3,35,1
+252,Statistics for Business,4,16,2
+253,Public Speaking,3,28,1
+254,Statistics for Business,3,19,1
+255,Environmental Studies,3,28,2
+256,Environmental Studies,3,24,2
+257,Chemistry Lab,3,27,1
+258,Music Theory,2,15,2
+259,Computer Science 101,3,35,2
+260,Literature and Society,3,20,2
+261,Statistics for Business,3,27,2
+262,Literature and Society,2,33,1
+263,Statistics for Business,2,33,1
+264,Chemistry Lab,2,26,2
+265,Environmental Studies,2,20,2
+266,Introduction to Psychology,4,27,1
+267,Literature and Society,4,31,1
+268,Philosophy of Ethics,4,32,1
+269,History of Art,3,18,2
+270,Environmental Studies,3,32,1
+271,History of Art,3,17,2
+272,Music Theory,3,25,2
+273,Environmental Studies,2,24,2
+274,Philosophy of Ethics,4,34,2
+275,Computer Science 101,3,28,2
+276,History of Art,4,14,1
+277,Statistics for Business,3,15,1
+278,Environmental Studies,3,28,2
+279,Philosophy of Ethics,3,24,2
+280,Introduction to Psychology,3,17,2
+281,Statistics for Business,3,23,2
+282,History of Art,4,14,2
+283,Public Speaking,2,24,2
+284,Computer Science 101,2,16,1
+285,Chemistry Lab,3,29,2
+286,Music Theory,4,34,2
+287,Statistics for Business,4,15,2
+288,Public Speaking,2,16,1
+289,Music Theory,3,33,2
+290,Philosophy of Ethics,2,27,1
+291,Statistics for Business,3,30,1
+292,Philosophy of Ethics,3,14,1
+293,Literature and Society,4,18,2
+294,Computer Science 101,3,35,1
+295,History of Art,4,17,1
+296,Computer Science 101,4,26,1
+297,Statistics for Business,2,33,1
+298,Music Theory,2,14,2
+299,History of Art,2,25,1
+300,Literature and Society,3,18,1
+301,Public Speaking,3,22,1
+302,Environmental Studies,2,17,2
+303,Chemistry Lab,4,32,2
+304,Statistics for Business,4,34,2
+305,Literature and Society,4,25,2
+306,History of Art,3,21,2
+307,Music Theory,2,34,1
+308,Music Theory,2,19,1
+309,Environmental Studies,4,22,1
+310,Music Theory,4,32,1
+311,Introduction to Psychology,4,30,1
+312,Philosophy of Ethics,3,30,1
+313,Public Speaking,2,27,1
+314,Computer Science 101,4,32,1
+315,Music Theory,2,31,2
+316,Environmental Studies,4,35,2
+317,Literature and Society,3,19,2
+318,Music Theory,4,19,1
+319,Philosophy of Ethics,3,16,2
+320,Statistics for Business,4,32,2
+321,Introduction to Psychology,4,31,2
+322,Music Theory,2,31,2
+323,Computer Science 101,3,25,2
+324,Introduction to Psychology,3,25,1
+325,History of Art,2,18,1
+326,Literature and Society,3,26,1
+327,Music Theory,3,19,2
+328,Philosophy of Ethics,3,16,1
+329,Philosophy of Ethics,4,28,1
+330,Public Speaking,3,22,2
+331,Introduction to Psychology,2,22,1
+332,Music Theory,4,25,2
+333,Chemistry Lab,4,22,2
+334,Statistics for Business,3,25,2
+335,Introduction to Psychology,3,16,2
+336,Philosophy of Ethics,2,15,1
+337,Literature and Society,3,34,1
+338,Chemistry Lab,4,34,1
+339,Literature and Society,3,31,2
+340,Music Theory,3,17,1
+341,Literature and Society,4,30,1
+342,Chemistry Lab,2,22,2
+343,Introduction to Psychology,2,24,2
+344,Environmental Studies,2,31,1
+345,Public Speaking,2,31,2
+346,Environmental Studies,2,18,2
+347,Environmental Studies,3,34,2
+348,Environmental Studies,4,24,2
+349,Statistics for Business,3,19,2
+350,History of Art,3,35,1
+351,Statistics for Business,2,30,2
+352,Music Theory,2,32,2
+353,Chemistry Lab,2,35,2
+354,Computer Science 101,4,20,2
+355,Music Theory,3,26,1
+356,Statistics for Business,4,23,2
+357,History of Art,3,33,1
+358,Music Theory,3,21,1
+359,Chemistry Lab,2,27,2
+360,Philosophy of Ethics,2,26,2
+361,Philosophy of Ethics,3,27,1
+362,Philosophy of Ethics,2,15,2
+363,Environmental Studies,2,28,2
+364,Music Theory,3,34,2
+365,Philosophy of Ethics,2,23,1
+366,Environmental Studies,4,22,1
+367,Literature and Society,3,33,2
+368,Chemistry Lab,3,32,1
+369,Computer Science 101,4,29,1
+370,Philosophy of Ethics,3,32,1
+371,Computer Science 101,2,34,2
+372,Literature and Society,3,29,2
+373,Literature and Society,3,29,1
+374,Philosophy of Ethics,2,29,2
+375,Public Speaking,3,19,2
+376,Statistics for Business,2,18,2
+377,Chemistry Lab,2,25,1
+378,Public Speaking,2,27,2
+379,Music Theory,3,28,1
+380,Statistics for Business,3,22,1
+381,Public Speaking,2,27,1
+382,Introduction to Psychology,3,28,1
+383,Philosophy of Ethics,3,23,2
+384,Literature and Society,4,24,2
+385,Philosophy of Ethics,3,25,1
+386,Environmental Studies,4,24,2
+387,Environmental Studies,3,15,2
+388,Environmental Studies,3,32,2
+389,Philosophy of Ethics,3,14,1
+390,Computer Science 101,4,34,1
+391,Music Theory,4,33,1
+392,Music Theory,4,32,1
+393,History of Art,3,18,1
+394,Statistics for Business,4,26,2
+395,History of Art,2,33,1
+396,Environmental Studies,2,34,1
+397,Statistics for Business,3,14,2
+398,Literature and Society,2,32,2
+399,Philosophy of Ethics,4,32,1
+400,Computer Science 101,2,21,1
+401,Chemistry Lab,2,24,1
+402,Chemistry Lab,3,29,2
+403,Chemistry Lab,3,25,2
+404,History of Art,2,27,1
+405,Literature and Society,3,31,2
+406,Environmental Studies,2,24,2
+407,Introduction to Psychology,3,15,2
+408,History of Art,2,28,1
+409,Public Speaking,3,17,1
+410,Environmental Studies,3,22,1
+411,Computer Science 101,2,34,2
+412,Chemistry Lab,4,32,2
+413,Environmental Studies,4,15,2
+414,Introduction to Psychology,2,28,1
+415,Chemistry Lab,4,30,1
+416,Computer Science 101,3,15,2
+417,History of Art,4,22,1
+418,Philosophy of Ethics,2,21,2
+419,Literature and Society,2,20,1
+420,Music Theory,4,30,1
+421,Public Speaking,4,20,1
+422,Statistics for Business,2,35,1
+423,Statistics for Business,3,34,2
+424,Public Speaking,2,16,2
+425,History of Art,2,30,2
+426,Music Theory,4,32,1
+427,Environmental Studies,3,20,1
+428,Philosophy of Ethics,4,20,2
+429,Statistics for Business,4,20,2
+430,Philosophy of Ethics,4,14,1
+431,Philosophy of Ethics,4,35,1
+432,Introduction to Psychology,3,29,1
+433,Statistics for Business,2,16,1
+434,Music Theory,2,19,2
+435,Chemistry Lab,3,28,2
+436,Literature and Society,4,21,1
+437,Public Speaking,4,21,1
+438,Statistics for Business,4,20,1
+439,Literature and Society,4,31,1
+440,Computer Science 101,2,32,1
+441,Public Speaking,3,18,2
+442,Literature and Society,4,35,2
+443,Literature and Society,3,15,1
+444,Environmental Studies,2,19,1
+445,Environmental Studies,3,32,1
+446,Environmental Studies,4,16,2
+447,Environmental Studies,4,21,1
+448,Literature and Society,4,15,1
+449,Statistics for Business,4,15,2
+450,Literature and Society,2,25,2
+451,Philosophy of Ethics,2,16,2
+452,Introduction to Psychology,3,26,1
+453,Music Theory,3,22,1
+454,Introduction to Psychology,4,27,1
+455,Music Theory,3,34,2
+456,Environmental Studies,2,17,2
+457,Literature and Society,2,32,2
+458,History of Art,3,19,2
+459,Music Theory,2,15,2
+460,Music Theory,4,33,1
+461,Computer Science 101,3,33,1
+462,Public Speaking,3,20,1
+463,Computer Science 101,4,31,1
+464,Statistics for Business,3,30,2
+465,Computer Science 101,3,34,1
+466,Philosophy of Ethics,4,25,1
+467,Statistics for Business,4,21,2
+468,Introduction to Psychology,2,30,1
+469,Literature and Society,4,30,1
+470,Public Speaking,4,29,1
+471,Chemistry Lab,2,16,1
+472,Statistics for Business,4,34,2
+473,Chemistry Lab,2,24,1
+474,Literature and Society,4,25,1
+475,Music Theory,4,20,1
+476,Statistics for Business,3,20,2
+477,Introduction to Psychology,3,25,2
+478,Public Speaking,3,16,1
+479,Literature and Society,2,19,2
+480,Computer Science 101,3,31,2
+481,Chemistry Lab,4,25,2
+482,Introduction to Psychology,3,16,1
+483,Public Speaking,2,17,1
+484,Statistics for Business,2,29,1
+485,Computer Science 101,3,24,1
+486,Public Speaking,2,30,2
+487,Introduction to Psychology,2,19,1
+488,Public Speaking,3,14,1
+489,Environmental Studies,2,15,1
+490,Introduction to Psychology,4,29,2
+491,Computer Science 101,3,14,2
+492,Statistics for Business,3,28,2
+493,History of Art,2,15,2
+494,Introduction to Psychology,3,21,1
+495,Literature and Society,2,19,1
+496,Chemistry Lab,4,19,2
+497,Introduction to Psychology,2,28,1
+498,Public Speaking,3,14,2
+499,Public Speaking,4,18,1
+500,Statistics for Business,3,32,2
+501,Chemistry Lab,4,27,2
+502,History of Art,2,18,2
+503,Statistics for Business,4,18,1
+504,History of Art,3,35,2
+505,Environmental Studies,4,27,1
+506,Music Theory,4,16,1
+507,Environmental Studies,3,17,1
+508,Public Speaking,4,32,1
+509,Literature and Society,2,19,2
+510,Philosophy of Ethics,3,32,1
+511,Music Theory,4,32,1
+512,Music Theory,2,34,1
+513,Computer Science 101,2,21,1
+514,Philosophy of Ethics,3,17,1
+515,Public Speaking,4,20,2
+516,Philosophy of Ethics,4,17,2
+517,History of Art,4,28,2
+518,Chemistry Lab,3,35,2
+519,Philosophy of Ethics,2,14,1
+520,Literature and Society,2,20,2
+521,Music Theory,4,15,1
+522,Public Speaking,4,14,1
+523,Literature and Society,3,15,2
+524,Chemistry Lab,3,34,1
+525,Chemistry Lab,4,20,1
+526,Introduction to Psychology,2,21,1
+527,Public Speaking,3,23,2
+528,Public Speaking,3,23,1
+529,Music Theory,2,29,1
+530,Environmental Studies,2,30,1
+531,Literature and Society,2,16,2
+532,Philosophy of Ethics,3,30,2
+533,Philosophy of Ethics,4,15,1
+534,Statistics for Business,3,31,2
+535,Computer Science 101,3,20,2
+536,Introduction to Psychology,2,20,2
+537,Computer Science 101,3,22,2
+538,Philosophy of Ethics,4,22,1
+539,Music Theory,2,34,2
+540,Environmental Studies,3,16,1
+541,Computer Science 101,3,29,2
+542,History of Art,3,23,2
+543,Literature and Society,4,30,1
+544,History of Art,4,20,1
+545,Philosophy of Ethics,2,32,1
+546,Public Speaking,4,21,1
+547,Environmental Studies,3,26,1
+548,Music Theory,3,14,1
+549,Environmental Studies,2,23,2
+550,Environmental Studies,4,14,1
+551,Philosophy of Ethics,3,20,1
+552,Literature and Society,4,28,1
+553,Philosophy of Ethics,3,21,2
+554,Literature and Society,2,30,2
+555,Environmental Studies,2,23,1
+556,Philosophy of Ethics,4,32,2
+557,History of Art,4,17,1
+558,Literature and Society,4,18,1
+559,History of Art,3,33,2
+560,Environmental Studies,2,28,2
+561,Environmental Studies,2,18,2
+562,Environmental Studies,3,35,2
+563,Philosophy of Ethics,4,24,1
+564,History of Art,3,25,1
+565,Introduction to Psychology,3,14,1
+566,History of Art,4,33,2
+567,Environmental Studies,4,30,1
+568,Environmental Studies,2,17,2
+569,History of Art,3,20,1
+570,Environmental Studies,4,19,1
+571,Philosophy of Ethics,4,34,1
+572,Statistics for Business,3,24,2
+573,Computer Science 101,2,19,2
+574,Philosophy of Ethics,3,29,2
+575,History of Art,2,23,2
+576,Chemistry Lab,4,35,2
+577,Environmental Studies,2,32,2
+578,Computer Science 101,2,32,2
+579,Environmental Studies,2,32,1
+580,Introduction to Psychology,3,18,1
+581,Literature and Society,3,19,2
+582,Environmental Studies,4,22,1
+583,Music Theory,4,29,2
+584,Statistics for Business,4,24,1
+585,Public Speaking,2,17,1
+586,Philosophy of Ethics,4,34,2
+587,Statistics for Business,3,34,1
+588,Public Speaking,3,26,2
+589,Philosophy of Ethics,2,17,1
+590,Philosophy of Ethics,4,21,2
+591,Statistics for Business,3,14,1
+592,Introduction to Psychology,2,19,1
+593,Statistics for Business,3,35,2
+594,Philosophy of Ethics,4,14,1
+595,Computer Science 101,4,23,2
+596,History of Art,2,28,1
+597,Public Speaking,2,31,2
+598,Public Speaking,2,14,2
+599,Statistics for Business,4,28,1
+600,Computer Science 101,2,29,1
+601,History of Art,2,32,2
+602,Philosophy of Ethics,2,27,1
+603,History of Art,2,14,2
+604,History of Art,4,16,2
+605,Public Speaking,4,29,2
+606,Environmental Studies,3,21,1
+607,Statistics for Business,4,28,2
+608,Introduction to Psychology,4,35,1
+609,Introduction to Psychology,2,35,1
+610,Philosophy of Ethics,2,32,1
+611,Statistics for Business,4,19,2
+612,Environmental Studies,3,24,1
+613,Literature and Society,4,32,2
+614,History of Art,3,32,1
+615,Literature and Society,4,29,2
+616,Computer Science 101,3,15,2
+617,Public Speaking,2,34,1
+618,History of Art,4,15,2
+619,Philosophy of Ethics,4,23,2
+620,Literature and Society,3,35,1
+621,Public Speaking,4,24,1
+622,Literature and Society,4,30,1
+623,Philosophy of Ethics,3,30,1
+624,Public Speaking,4,26,1
+625,Public Speaking,2,30,2
+626,Chemistry Lab,4,29,2
+627,Statistics for Business,2,14,2
+628,Computer Science 101,2,33,2
+629,Music Theory,2,22,1
+630,Introduction to Psychology,2,34,1
+631,Public Speaking,2,26,2
+632,Public Speaking,4,35,1
+633,Environmental Studies,2,25,2
+634,Music Theory,4,16,2
+635,History of Art,4,32,1
+636,Introduction to Psychology,4,19,2
+637,Literature and Society,3,19,2
+638,Music Theory,2,21,1
+639,Chemistry Lab,4,16,1
+640,Public Speaking,2,20,2
+641,Statistics for Business,4,25,2
+642,Philosophy of Ethics,3,23,1
+643,Introduction to Psychology,3,17,1
+644,History of Art,3,22,1
+645,History of Art,3,31,2
+646,Statistics for Business,2,17,1
+647,Chemistry Lab,2,20,2
+648,Chemistry Lab,4,34,1
+649,Computer Science 101,2,26,2
+650,Environmental Studies,3,34,1
+651,Philosophy of Ethics,2,14,2
+652,Philosophy of Ethics,2,14,2
+653,Music Theory,2,22,1
+654,Philosophy of Ethics,4,17,2
+655,Statistics for Business,4,33,2
+656,Philosophy of Ethics,3,25,1
+657,Public Speaking,3,31,2
+658,Music Theory,2,17,1
+659,Literature and Society,2,24,2
+660,Computer Science 101,4,17,1
+661,Chemistry Lab,2,16,1
+662,Music Theory,2,28,2
+663,Chemistry Lab,4,33,1
+664,Literature and Society,2,28,1
+665,Music Theory,3,28,1
+666,Computer Science 101,4,27,2
+667,Statistics for Business,2,24,2
+668,Chemistry Lab,3,15,1
+669,Statistics for Business,3,30,1
+670,Literature and Society,4,29,1
+671,Computer Science 101,2,22,1
+672,Environmental Studies,2,16,2
+673,Public Speaking,3,24,2
+674,Public Speaking,4,28,1
+675,History of Art,2,28,2
+676,Introduction to Psychology,3,27,1
+677,Chemistry Lab,4,22,1
+678,Public Speaking,2,35,2
+679,Chemistry Lab,3,16,2
+680,Introduction to Psychology,2,24,1
+681,Philosophy of Ethics,3,25,2
+682,Chemistry Lab,3,30,1
+683,Literature and Society,3,24,2
+684,Computer Science 101,2,29,1
+685,Public Speaking,3,15,1
+686,Computer Science 101,2,27,2
+687,Environmental Studies,2,28,1
+688,Philosophy of Ethics,2,14,2
+689,Literature and Society,3,18,2
+690,Literature and Society,3,27,2
+691,History of Art,3,35,2
+692,Literature and Society,3,35,2
+693,Computer Science 101,2,19,1
+694,Computer Science 101,3,20,1
+695,Literature and Society,3,14,2
+696,Literature and Society,2,27,1
+697,Chemistry Lab,4,29,2
+698,Music Theory,3,35,1
+699,Environmental Studies,2,19,2
+700,Literature and Society,2,25,1
+701,Computer Science 101,4,25,1
+702,Philosophy of Ethics,4,20,2
+703,Environmental Studies,4,31,2
+704,Literature and Society,2,34,2
+705,Literature and Society,4,31,2
+706,Computer Science 101,2,15,1
+707,History of Art,3,30,2
+708,Literature and Society,3,17,2
+709,Literature and Society,3,17,1
+710,Chemistry Lab,4,29,2
+711,Music Theory,4,31,1
+712,Computer Science 101,3,27,2
+713,Philosophy of Ethics,4,28,2
+714,Music Theory,4,28,1
+715,Philosophy of Ethics,3,24,1
+716,Literature and Society,3,25,1
+717,Chemistry Lab,2,21,1
+718,Computer Science 101,4,26,2
+719,Public Speaking,3,27,1
+720,Public Speaking,2,31,2
+721,Literature and Society,3,35,1
+722,Philosophy of Ethics,3,27,2
+723,Chemistry Lab,2,25,1
+724,Philosophy of Ethics,2,29,1
+725,Public Speaking,4,17,1
+726,Public Speaking,2,31,1
+727,Philosophy of Ethics,2,27,1
+728,Philosophy of Ethics,4,19,1
+729,Philosophy of Ethics,3,25,1
+730,Literature and Society,3,33,2
+731,History of Art,4,17,2
+732,Computer Science 101,3,18,2
+733,Literature and Society,3,14,2
+734,Introduction to Psychology,3,32,2
+735,Chemistry Lab,2,33,2
+736,Environmental Studies,3,23,1
+737,Chemistry Lab,3,33,1
+738,Computer Science 101,4,20,1
+739,Environmental Studies,3,15,2
+740,Philosophy of Ethics,2,23,1
+741,Philosophy of Ethics,2,17,1
+742,Chemistry Lab,2,18,2
+743,Public Speaking,3,24,2
+744,Chemistry Lab,3,28,2
+745,History of Art,4,21,1
+746,Philosophy of Ethics,2,23,1
+747,History of Art,4,15,2
+748,Statistics for Business,4,21,1
+749,Computer Science 101,4,16,2
+750,Philosophy of Ethics,2,22,2
+751,Statistics for Business,3,22,1
+752,Music Theory,4,32,1
+753,Public Speaking,2,24,2
+754,Environmental Studies,2,34,1
+755,Computer Science 101,2,18,1
+756,Philosophy of Ethics,4,26,1
+757,Literature and Society,3,20,1
+758,Music Theory,3,25,1
+759,Chemistry Lab,4,28,1
+760,Environmental Studies,4,28,1
+761,Chemistry Lab,4,26,1
+762,History of Art,3,21,1
+763,Public Speaking,2,32,2
+764,History of Art,4,29,2
+765,Computer Science 101,3,31,2
+766,Philosophy of Ethics,3,21,1
+767,Music Theory,4,27,1
+768,Philosophy of Ethics,2,29,1
+769,Philosophy of Ethics,4,25,1
+770,Public Speaking,4,32,1
+771,History of Art,2,29,2
+772,Environmental Studies,2,33,1
+773,Chemistry Lab,2,15,1
+774,Literature and Society,4,33,2
+775,Environmental Studies,3,23,2
+776,Computer Science 101,3,26,2
+777,Statistics for Business,4,23,1
+778,Introduction to Psychology,4,29,2
+779,Introduction to Psychology,2,32,2
+780,Philosophy of Ethics,3,30,2
+781,Chemistry Lab,3,21,1
+782,History of Art,3,24,1
+783,Computer Science 101,4,31,2
+784,Philosophy of Ethics,4,23,1
+785,Introduction to Psychology,4,28,1
+786,Chemistry Lab,2,22,1
+787,History of Art,3,25,1
+788,Music Theory,4,22,2
+789,Environmental Studies,3,23,2
+790,Introduction to Psychology,2,26,2
+791,Computer Science 101,3,24,2
+792,Computer Science 101,3,19,1
+793,History of Art,2,26,2
+794,Introduction to Psychology,3,32,2
+795,Music Theory,3,19,2
+796,Literature and Society,2,29,2
+797,Philosophy of Ethics,3,26,2
+798,Music Theory,4,35,1
+799,History of Art,2,23,1
+800,Environmental Studies,2,28,1
+801,Philosophy of Ethics,2,33,2
+802,History of Art,4,32,2
+803,Computer Science 101,4,34,1
+804,Music Theory,4,22,2
+805,History of Art,2,35,2
+806,Chemistry Lab,2,27,2
+807,Computer Science 101,3,35,2
+808,Introduction to Psychology,4,33,1
+809,Chemistry Lab,3,26,2
+810,Introduction to Psychology,4,23,1
+811,History of Art,2,26,1
+812,History of Art,4,17,1
+813,Chemistry Lab,4,23,2
+814,Statistics for Business,4,22,2
+815,Introduction to Psychology,4,27,2
+816,Music Theory,4,33,1
+817,Philosophy of Ethics,4,34,2
+818,Introduction to Psychology,4,27,1
+819,Philosophy of Ethics,3,19,2
+820,Music Theory,4,28,1
+821,Statistics for Business,4,25,1
+822,Literature and Society,3,19,2
+823,Environmental Studies,3,27,2
+824,Statistics for Business,3,24,1
+825,Computer Science 101,3,28,2
+826,Statistics for Business,3,32,1
+827,Computer Science 101,2,31,1
+828,History of Art,4,16,2
+829,Literature and Society,2,29,1
+830,Music Theory,4,14,2
+831,History of Art,2,19,1
+832,Environmental Studies,3,26,2
+833,Statistics for Business,2,21,1
+834,Music Theory,3,14,1
+835,History of Art,4,30,2
+836,Computer Science 101,2,20,2
+837,Literature and Society,4,32,2
+838,Computer Science 101,4,33,2
+839,Chemistry Lab,4,31,1
+840,Literature and Society,4,33,1
+841,Chemistry Lab,3,27,1
+842,Introduction to Psychology,4,22,1
+843,Public Speaking,4,29,1
+844,Music Theory,4,18,1
+845,Literature and Society,2,24,2
+846,Literature and Society,3,34,2
+847,Literature and Society,3,20,2
+848,Literature and Society,3,15,1
+849,Introduction to Psychology,3,31,1
+850,Chemistry Lab,3,20,2
+851,Music Theory,4,20,2
+852,Public Speaking,2,35,2
+853,History of Art,2,33,2
+854,Chemistry Lab,2,21,1
+855,Philosophy of Ethics,2,26,2
+856,Public Speaking,4,27,1
+857,Philosophy of Ethics,3,20,2
+858,Introduction to Psychology,3,31,1
+859,Introduction to Psychology,3,14,2
+860,Literature and Society,3,27,2
+861,Chemistry Lab,3,18,1
+862,Chemistry Lab,2,17,1
+863,Introduction to Psychology,3,21,1
+864,Introduction to Psychology,4,34,2
+865,Environmental Studies,3,18,2
+866,Philosophy of Ethics,2,22,1
+867,History of Art,3,14,1
+868,History of Art,4,31,2
+869,Philosophy of Ethics,2,22,2
+870,Philosophy of Ethics,3,26,2
+871,Statistics for Business,3,15,1
+872,Computer Science 101,4,33,1
+873,Statistics for Business,4,29,1
+874,Literature and Society,4,27,1
+875,Literature and Society,4,19,2
+876,Literature and Society,4,18,1
+877,Chemistry Lab,4,14,1
+878,Statistics for Business,4,27,1
+879,Environmental Studies,2,32,1
+880,Statistics for Business,4,18,1
+881,History of Art,4,27,1
+882,Chemistry Lab,4,34,2
+883,Philosophy of Ethics,2,35,2
+884,Statistics for Business,4,23,2
+885,Music Theory,3,27,1
+886,Environmental Studies,3,21,1
+887,Environmental Studies,2,22,1
+888,Music Theory,4,20,1
+889,Statistics for Business,4,27,2
+890,Public Speaking,4,22,2
+891,Statistics for Business,3,17,1
+892,Chemistry Lab,3,20,2
+893,Philosophy of Ethics,3,15,1
+894,Public Speaking,3,15,1
+895,Statistics for Business,4,33,1
+896,Introduction to Psychology,2,27,1
+897,Literature and Society,3,28,1
+898,Statistics for Business,4,29,2
+899,Statistics for Business,4,33,1
+900,History of Art,4,25,1
+901,Chemistry Lab,3,30,2
+902,Chemistry Lab,3,27,1
+903,Literature and Society,4,23,2
+904,Public Speaking,3,24,2
+905,Philosophy of Ethics,4,23,2
+906,Chemistry Lab,2,23,2
+907,Public Speaking,3,34,2
+908,Literature and Society,4,22,1
+909,Public Speaking,3,23,1
+910,Literature and Society,2,23,1
+911,History of Art,3,33,1
+912,Philosophy of Ethics,4,19,1
+913,History of Art,4,32,2
+914,Statistics for Business,4,26,2
+915,Environmental Studies,4,21,2
+916,Music Theory,2,21,1
+917,Computer Science 101,2,14,2
+918,Literature and Society,4,26,1
+919,Environmental Studies,3,26,2
+920,Statistics for Business,4,17,2
+921,Computer Science 101,2,23,1
+922,Literature and Society,3,33,2
+923,Statistics for Business,4,32,1
+924,Chemistry Lab,4,35,2
+925,Environmental Studies,3,35,2
+926,Computer Science 101,4,15,1
+927,Statistics for Business,3,21,1
+928,Statistics for Business,2,21,2
+929,Philosophy of Ethics,2,29,2
+930,Statistics for Business,2,22,1
+931,Public Speaking,2,24,1
+932,Literature and Society,3,31,2
+933,Chemistry Lab,2,21,1
+934,Environmental Studies,3,26,1
+935,Music Theory,2,22,2
+936,Philosophy of Ethics,3,29,1
+937,Music Theory,3,30,2
+938,Computer Science 101,4,28,2
+939,Computer Science 101,3,26,1
+940,Environmental Studies,2,29,1
+941,Philosophy of Ethics,3,15,1
+942,Introduction to Psychology,4,26,2
+943,Computer Science 101,4,18,2
+944,History of Art,2,32,1
+945,History of Art,3,19,2
+946,Introduction to Psychology,2,35,2
+947,Statistics for Business,4,31,1
+948,Philosophy of Ethics,4,14,2
+949,Computer Science 101,4,25,2
+950,Computer Science 101,2,15,2
+951,Chemistry Lab,2,28,1
+952,Computer Science 101,4,19,2
+953,Environmental Studies,3,21,2
+954,Statistics for Business,2,31,2
+955,Philosophy of Ethics,3,35,1
+956,Philosophy of Ethics,4,29,2
+957,Statistics for Business,3,21,1
+958,Introduction to Psychology,3,18,1
+959,Music Theory,4,16,1
+960,Public Speaking,4,21,2
+961,Computer Science 101,2,33,2
+962,Music Theory,4,33,2
+963,Statistics for Business,3,19,1
+964,Literature and Society,4,32,1
+965,Computer Science 101,2,26,2
+966,Public Speaking,3,15,2
+967,Chemistry Lab,2,34,1
+968,Public Speaking,2,27,1
+969,Introduction to Psychology,2,29,2
+970,Introduction to Psychology,2,22,1
+971,History of Art,2,23,1
+972,History of Art,4,16,1
+973,Environmental Studies,3,34,1
+974,Introduction to Psychology,3,16,2
+975,Chemistry Lab,4,24,1
+976,Chemistry Lab,4,30,2
+977,Philosophy of Ethics,3,20,2
+978,Philosophy of Ethics,2,35,1
+979,Computer Science 101,2,15,2
+980,Literature and Society,4,28,1
+981,Computer Science 101,3,30,1
+982,Chemistry Lab,2,32,1
+983,Environmental Studies,2,28,1
+984,Chemistry Lab,3,21,1
+985,Chemistry Lab,4,15,2
+986,Computer Science 101,4,27,2
+987,Public Speaking,3,30,2
+988,Music Theory,2,22,1
+989,Statistics for Business,3,21,1
+990,Literature and Society,4,14,2
+991,Literature and Society,2,20,2
+992,Environmental Studies,2,25,2
+993,Computer Science 101,3,18,2
+994,Statistics for Business,2,16,1
+995,Literature and Society,4,32,1
+996,Philosophy of Ethics,3,33,2
+997,Public Speaking,3,31,1
+998,Computer Science 101,3,20,2
+999,Philosophy of Ethics,4,22,1
+1000,Computer Science 101,2,16,2

@@ -1,0 +1,1001 @@
+ID_HISTORIAL,ID_USUARIO,ID_CURSO,PERIODO,ANNO,OBSERVACIONES,CALIFICACION,ID_ESTADO
+1,36,331,FIRST SEMESTER,2016,student arrived late to class,6,2
+2,384,823,SUMMER SEMESTER,2011,student arrived late to class,83,1
+3,653,287,WINTER SEMESTER,2011,student needed extra help with the lesson,47,2
+4,163,802,SECOND SEMESTER,2011,student arrived late to class,10,1
+5,190,509,THIRD SEMESTER,2014,student exhibited disruptive behavior,82,2
+6,38,872,WINTER SEMESTER,2020,student was absent without notice,24,1
+7,900,496,FIRST SEMESTER,2016,student showed improvement in test scores,72,2
+8,822,854,SECOND SEMESTER,2010,student completed assignment on time,12,1
+9,907,509,SUMMER SEMESTER,2016,student was absent without notice,46,1
+10,304,548,WINTER SEMESTER,2017,student worked well in group projects,82,1
+11,252,63,WINTER SEMESTER,2002,student needed extra help with the lesson,19,1
+12,837,418,WINTER SEMESTER,2004,student participated actively in discussion,41,1
+13,684,744,SUMMER SEMESTER,2003,student completed assignment on time,93,2
+14,570,581,FIRST SEMESTER,2018,student arrived late to class,28,1
+15,203,738,SECOND SEMESTER,2007,student worked well in group projects,83,1
+16,159,715,FIRST SEMESTER,2005,student exhibited disruptive behavior,16,2
+17,214,119,THIRD SEMESTER,2019,student completed assignment on time,89,1
+18,882,148,WINTER SEMESTER,2002,student was absent without notice,85,2
+19,174,219,SUMMER SEMESTER,2014,student needed extra help with the lesson,41,2
+20,104,205,THIRD SEMESTER,2017,student worked well in group projects,98,1
+21,363,796,THIRD SEMESTER,2006,student exhibited disruptive behavior,88,1
+22,946,643,SECOND SEMESTER,2013,student completed assignment on time,98,2
+23,952,283,SECOND SEMESTER,2006,student was absent without notice,0,2
+24,298,209,THIRD SEMESTER,2016,student demonstrated strong understanding of the material,16,2
+25,81,828,FIRST SEMESTER,2013,student participated actively in discussion,79,1
+26,599,930,SUMMER SEMESTER,2009,student showed improvement in test scores,20,1
+27,199,754,SUMMER SEMESTER,2015,student asked insightful questions,42,2
+28,867,578,WINTER SEMESTER,2013,student exhibited disruptive behavior,73,1
+29,469,377,SUMMER SEMESTER,2003,student arrived late to class,80,2
+30,518,580,THIRD SEMESTER,2018,student participated actively in discussion,2,1
+31,297,466,SECOND SEMESTER,2008,student demonstrated strong understanding of the material,83,1
+32,910,220,THIRD SEMESTER,2009,student showed improvement in test scores,81,2
+33,471,98,FIRST SEMESTER,2016,student was absent without notice,8,1
+34,253,138,SUMMER SEMESTER,2012,student arrived late to class,49,1
+35,680,566,THIRD SEMESTER,2012,student worked well in group projects,58,2
+36,61,530,SECOND SEMESTER,2015,student was absent without notice,8,2
+37,291,744,SUMMER SEMESTER,2011,student demonstrated strong understanding of the material,51,1
+38,700,976,SECOND SEMESTER,2010,student arrived late to class,42,2
+39,218,381,WINTER SEMESTER,2015,student arrived late to class,85,2
+40,116,590,SUMMER SEMESTER,2014,student exhibited disruptive behavior,35,1
+41,961,395,SUMMER SEMESTER,2007,student showed improvement in test scores,80,2
+42,898,269,SUMMER SEMESTER,2008,student asked insightful questions,31,1
+43,456,318,SECOND SEMESTER,2020,student was absent without notice,21,2
+44,176,45,SECOND SEMESTER,2007,student completed assignment on time,93,1
+45,724,368,FIRST SEMESTER,2013,student participated actively in discussion,43,2
+46,127,8,FIRST SEMESTER,2009,student completed assignment on time,45,1
+47,676,561,SUMMER SEMESTER,2019,student needed extra help with the lesson,72,1
+48,317,913,SUMMER SEMESTER,2013,student demonstrated strong understanding of the material,22,1
+49,646,306,FIRST SEMESTER,2012,student exhibited disruptive behavior,45,2
+50,943,627,SECOND SEMESTER,2009,student participated actively in discussion,55,1
+51,136,345,THIRD SEMESTER,2016,student demonstrated strong understanding of the material,22,2
+52,521,6,FIRST SEMESTER,2013,student worked well in group projects,29,2
+53,12,298,SECOND SEMESTER,2012,student exhibited disruptive behavior,25,2
+54,541,325,SUMMER SEMESTER,2016,student completed assignment on time,47,2
+55,296,267,WINTER SEMESTER,2006,student participated actively in discussion,20,1
+56,653,813,SECOND SEMESTER,2010,student exhibited disruptive behavior,55,1
+57,507,201,THIRD SEMESTER,2009,student exhibited disruptive behavior,25,2
+58,985,497,FIRST SEMESTER,2010,student exhibited disruptive behavior,38,2
+59,265,584,WINTER SEMESTER,2021,student worked well in group projects,26,2
+60,446,855,WINTER SEMESTER,2015,student needed extra help with the lesson,32,2
+61,324,387,FIRST SEMESTER,2017,student demonstrated strong understanding of the material,73,1
+62,829,680,FIRST SEMESTER,2014,student asked insightful questions,64,2
+63,762,474,THIRD SEMESTER,2016,student showed improvement in test scores,41,2
+64,398,422,SECOND SEMESTER,0,student demonstrated strong understanding of the material,83,1
+65,448,376,FIRST SEMESTER,2010,student asked insightful questions,44,1
+66,848,228,SECOND SEMESTER,2008,student showed improvement in test scores,96,2
+67,88,517,SUMMER SEMESTER,2019,student asked insightful questions,75,1
+68,845,751,SUMMER SEMESTER,2015,student was absent without notice,17,1
+69,251,241,SECOND SEMESTER,2015,student showed improvement in test scores,29,2
+70,26,815,SUMMER SEMESTER,2010,student was absent without notice,18,2
+71,40,34,SECOND SEMESTER,2004,student needed extra help with the lesson,5,1
+72,690,895,SECOND SEMESTER,2011,student was absent without notice,8,1
+73,917,843,SECOND SEMESTER,2003,student participated actively in discussion,92,1
+74,39,380,FIRST SEMESTER,2015,student asked insightful questions,12,1
+75,308,919,THIRD SEMESTER,2019,student completed assignment on time,90,1
+76,293,420,SECOND SEMESTER,2020,student demonstrated strong understanding of the material,74,1
+77,767,833,SECOND SEMESTER,2015,student arrived late to class,16,1
+78,544,74,FIRST SEMESTER,2020,student exhibited disruptive behavior,68,2
+79,143,421,SUMMER SEMESTER,2003,student arrived late to class,34,2
+80,23,604,SECOND SEMESTER,2014,student exhibited disruptive behavior,60,1
+81,337,149,THIRD SEMESTER,2014,student asked insightful questions,20,2
+82,83,801,WINTER SEMESTER,2015,student arrived late to class,77,1
+83,124,605,FIRST SEMESTER,2012,student asked insightful questions,31,2
+84,380,185,SUMMER SEMESTER,2017,student exhibited disruptive behavior,27,2
+85,94,293,WINTER SEMESTER,2013,student arrived late to class,95,2
+86,584,659,THIRD SEMESTER,2006,student showed improvement in test scores,77,1
+87,568,949,THIRD SEMESTER,2007,student showed improvement in test scores,97,1
+88,334,701,FIRST SEMESTER,2012,student arrived late to class,1,2
+89,535,248,SECOND SEMESTER,2014,student showed improvement in test scores,27,2
+90,304,592,SECOND SEMESTER,0,student exhibited disruptive behavior,7,2
+91,16,726,THIRD SEMESTER,2014,student exhibited disruptive behavior,47,1
+92,493,252,FIRST SEMESTER,2009,student exhibited disruptive behavior,88,1
+93,827,631,FIRST SEMESTER,2018,student worked well in group projects,4,1
+94,494,607,FIRST SEMESTER,2019,student asked insightful questions,60,2
+95,119,594,SECOND SEMESTER,2017,student was absent without notice,55,1
+96,264,900,FIRST SEMESTER,2014,student completed assignment on time,36,1
+97,982,542,WINTER SEMESTER,2015,student asked insightful questions,7,1
+98,932,299,SUMMER SEMESTER,2013,student arrived late to class,32,1
+99,498,505,SUMMER SEMESTER,2019,student exhibited disruptive behavior,4,2
+100,678,367,SECOND SEMESTER,2014,student showed improvement in test scores,99,2
+101,265,991,SECOND SEMESTER,2009,student arrived late to class,27,2
+102,530,807,WINTER SEMESTER,2009,student showed improvement in test scores,23,1
+103,552,408,THIRD SEMESTER,2014,student asked insightful questions,82,1
+104,908,728,SECOND SEMESTER,2004,student asked insightful questions,96,1
+105,232,88,WINTER SEMESTER,2011,student worked well in group projects,38,1
+106,130,534,THIRD SEMESTER,2016,student exhibited disruptive behavior,39,1
+107,40,360,SECOND SEMESTER,2004,student exhibited disruptive behavior,71,1
+108,547,299,SECOND SEMESTER,2006,student completed assignment on time,63,1
+109,537,912,WINTER SEMESTER,2015,student arrived late to class,8,1
+110,642,435,SECOND SEMESTER,2013,student completed assignment on time,25,1
+111,346,889,FIRST SEMESTER,1998,student exhibited disruptive behavior,48,2
+112,203,641,SECOND SEMESTER,2006,student needed extra help with the lesson,90,2
+113,394,957,FIRST SEMESTER,2012,student needed extra help with the lesson,88,1
+114,963,945,THIRD SEMESTER,2015,student demonstrated strong understanding of the material,58,1
+115,263,365,SECOND SEMESTER,2019,student worked well in group projects,68,2
+116,825,191,SECOND SEMESTER,2005,student needed extra help with the lesson,36,1
+117,189,574,THIRD SEMESTER,2014,student showed improvement in test scores,77,1
+118,394,445,WINTER SEMESTER,2016,student completed assignment on time,16,2
+119,348,735,FIRST SEMESTER,2010,student demonstrated strong understanding of the material,96,2
+120,67,737,SUMMER SEMESTER,2017,student asked insightful questions,35,1
+121,604,808,SUMMER SEMESTER,2015,student needed extra help with the lesson,81,1
+122,922,568,FIRST SEMESTER,2015,student completed assignment on time,56,1
+123,87,114,SUMMER SEMESTER,2014,student was absent without notice,78,2
+124,675,288,THIRD SEMESTER,2004,student exhibited disruptive behavior,64,1
+125,562,163,SECOND SEMESTER,2011,student demonstrated strong understanding of the material,11,1
+126,526,406,SUMMER SEMESTER,2008,student worked well in group projects,40,2
+127,410,456,SECOND SEMESTER,2016,student participated actively in discussion,1,1
+128,385,320,WINTER SEMESTER,2006,student exhibited disruptive behavior,51,2
+129,789,83,SECOND SEMESTER,2010,student exhibited disruptive behavior,60,1
+130,750,556,SUMMER SEMESTER,2010,student asked insightful questions,18,1
+131,57,366,WINTER SEMESTER,2016,student worked well in group projects,11,1
+132,429,605,THIRD SEMESTER,2004,student completed assignment on time,94,1
+133,709,905,WINTER SEMESTER,2020,student was absent without notice,64,1
+134,860,849,FIRST SEMESTER,2016,student needed extra help with the lesson,35,1
+135,38,674,SECOND SEMESTER,2018,student needed extra help with the lesson,4,2
+136,810,670,FIRST SEMESTER,2006,student worked well in group projects,34,1
+137,318,371,WINTER SEMESTER,2016,student showed improvement in test scores,61,2
+138,702,148,FIRST SEMESTER,2019,student participated actively in discussion,20,2
+139,698,187,FIRST SEMESTER,2003,student exhibited disruptive behavior,69,2
+140,869,796,FIRST SEMESTER,1996,student asked insightful questions,96,1
+141,971,647,SUMMER SEMESTER,2010,student worked well in group projects,3,1
+142,933,650,SUMMER SEMESTER,2021,student completed assignment on time,28,2
+143,708,635,WINTER SEMESTER,2015,student arrived late to class,85,2
+144,708,533,FIRST SEMESTER,2008,student worked well in group projects,89,1
+145,709,300,FIRST SEMESTER,2012,student worked well in group projects,84,2
+146,985,107,FIRST SEMESTER,2020,student showed improvement in test scores,45,2
+147,636,110,THIRD SEMESTER,2000,student demonstrated strong understanding of the material,14,2
+148,462,804,SUMMER SEMESTER,2016,student showed improvement in test scores,89,2
+149,791,883,THIRD SEMESTER,2012,student participated actively in discussion,97,1
+150,839,376,THIRD SEMESTER,2014,student was absent without notice,15,1
+151,747,320,SUMMER SEMESTER,2007,student worked well in group projects,42,2
+152,533,674,THIRD SEMESTER,2014,student asked insightful questions,42,2
+153,578,234,THIRD SEMESTER,0,student exhibited disruptive behavior,60,2
+154,285,625,WINTER SEMESTER,2013,student arrived late to class,55,2
+155,468,687,FIRST SEMESTER,1999,student completed assignment on time,23,1
+156,951,945,SUMMER SEMESTER,2017,student arrived late to class,36,2
+157,828,844,THIRD SEMESTER,2005,student asked insightful questions,8,2
+158,351,430,THIRD SEMESTER,2004,student exhibited disruptive behavior,26,2
+159,944,132,THIRD SEMESTER,2016,student needed extra help with the lesson,48,2
+160,982,735,FIRST SEMESTER,2014,student asked insightful questions,30,1
+161,501,129,SECOND SEMESTER,2003,student needed extra help with the lesson,92,2
+162,472,648,SECOND SEMESTER,2006,student exhibited disruptive behavior,62,1
+163,593,192,FIRST SEMESTER,2002,student needed extra help with the lesson,44,1
+164,593,912,SECOND SEMESTER,2013,student completed assignment on time,56,2
+165,445,36,FIRST SEMESTER,2016,student exhibited disruptive behavior,9,1
+166,314,129,THIRD SEMESTER,2004,student exhibited disruptive behavior,28,1
+167,672,206,WINTER SEMESTER,2019,student was absent without notice,64,2
+168,899,606,SUMMER SEMESTER,2003,student completed assignment on time,32,2
+169,275,264,THIRD SEMESTER,2016,student demonstrated strong understanding of the material,3,1
+170,339,737,SUMMER SEMESTER,2009,student participated actively in discussion,13,2
+171,567,907,SECOND SEMESTER,2020,student exhibited disruptive behavior,24,2
+172,743,792,WINTER SEMESTER,0,student participated actively in discussion,78,2
+173,238,196,THIRD SEMESTER,2017,student asked insightful questions,37,2
+174,709,152,FIRST SEMESTER,2013,student completed assignment on time,33,2
+175,15,383,SECOND SEMESTER,2015,student worked well in group projects,65,1
+176,634,864,THIRD SEMESTER,2013,student completed assignment on time,25,1
+177,436,347,FIRST SEMESTER,2019,student exhibited disruptive behavior,88,1
+178,918,664,WINTER SEMESTER,2008,student needed extra help with the lesson,87,2
+179,223,446,SECOND SEMESTER,2010,student completed assignment on time,62,1
+180,517,956,WINTER SEMESTER,2013,student demonstrated strong understanding of the material,49,2
+181,934,786,SUMMER SEMESTER,2014,student demonstrated strong understanding of the material,81,1
+182,797,578,SUMMER SEMESTER,2010,student demonstrated strong understanding of the material,35,2
+183,919,469,SECOND SEMESTER,2017,student was absent without notice,57,1
+184,807,652,SECOND SEMESTER,2010,student demonstrated strong understanding of the material,71,2
+185,976,149,THIRD SEMESTER,2016,student completed assignment on time,42,2
+186,720,879,FIRST SEMESTER,2006,student needed extra help with the lesson,72,2
+187,600,105,SECOND SEMESTER,2013,student worked well in group projects,39,2
+188,384,289,FIRST SEMESTER,2017,student arrived late to class,30,1
+189,374,79,SUMMER SEMESTER,2011,student exhibited disruptive behavior,18,2
+190,140,864,WINTER SEMESTER,2005,student demonstrated strong understanding of the material,52,1
+191,264,505,WINTER SEMESTER,2020,student worked well in group projects,40,2
+192,98,501,FIRST SEMESTER,2017,student showed improvement in test scores,80,2
+193,816,21,SECOND SEMESTER,2012,student completed assignment on time,16,1
+194,965,443,SECOND SEMESTER,2010,student completed assignment on time,37,1
+195,134,564,FIRST SEMESTER,2020,student showed improvement in test scores,48,1
+196,602,474,FIRST SEMESTER,2016,student worked well in group projects,9,2
+197,894,855,SUMMER SEMESTER,2012,student demonstrated strong understanding of the material,25,1
+198,659,68,FIRST SEMESTER,2014,student needed extra help with the lesson,68,2
+199,787,429,SUMMER SEMESTER,2017,student completed assignment on time,79,2
+200,25,703,SUMMER SEMESTER,2011,student asked insightful questions,12,2
+201,588,288,THIRD SEMESTER,2020,student showed improvement in test scores,68,1
+202,499,38,SECOND SEMESTER,2007,student needed extra help with the lesson,3,1
+203,378,219,WINTER SEMESTER,2013,student was absent without notice,57,2
+204,904,425,THIRD SEMESTER,2013,student arrived late to class,3,1
+205,407,87,FIRST SEMESTER,2015,student showed improvement in test scores,71,2
+206,411,875,SECOND SEMESTER,2020,student showed improvement in test scores,57,2
+207,711,271,WINTER SEMESTER,2008,student worked well in group projects,59,1
+208,386,272,THIRD SEMESTER,2016,student arrived late to class,5,1
+209,568,986,SECOND SEMESTER,2010,student was absent without notice,60,1
+210,847,136,WINTER SEMESTER,2014,student needed extra help with the lesson,92,1
+211,468,273,SECOND SEMESTER,2020,student needed extra help with the lesson,32,1
+212,965,234,THIRD SEMESTER,2002,student needed extra help with the lesson,41,1
+213,460,757,WINTER SEMESTER,2020,student demonstrated strong understanding of the material,62,1
+214,605,110,WINTER SEMESTER,2013,student arrived late to class,89,1
+215,157,466,THIRD SEMESTER,2012,student needed extra help with the lesson,27,1
+216,562,261,SECOND SEMESTER,2016,student showed improvement in test scores,54,2
+217,510,491,FIRST SEMESTER,2012,student asked insightful questions,91,1
+218,475,924,FIRST SEMESTER,2008,student showed improvement in test scores,33,1
+219,562,241,WINTER SEMESTER,2013,student demonstrated strong understanding of the material,93,1
+220,66,377,SECOND SEMESTER,0,student showed improvement in test scores,51,2
+221,854,624,WINTER SEMESTER,2006,student needed extra help with the lesson,0,1
+222,473,195,FIRST SEMESTER,2003,student arrived late to class,30,2
+223,735,553,SUMMER SEMESTER,2019,student demonstrated strong understanding of the material,72,2
+224,308,158,FIRST SEMESTER,2004,student showed improvement in test scores,50,2
+225,294,654,SECOND SEMESTER,2009,student arrived late to class,11,2
+226,967,385,SUMMER SEMESTER,2013,student needed extra help with the lesson,69,2
+227,886,303,SECOND SEMESTER,2019,student exhibited disruptive behavior,2,1
+228,513,764,SECOND SEMESTER,2009,student showed improvement in test scores,57,2
+229,167,425,SECOND SEMESTER,2021,student arrived late to class,62,2
+230,351,43,FIRST SEMESTER,2012,student demonstrated strong understanding of the material,38,1
+231,166,164,THIRD SEMESTER,2015,student demonstrated strong understanding of the material,97,1
+232,606,746,FIRST SEMESTER,2011,student arrived late to class,24,1
+233,520,62,THIRD SEMESTER,2007,student worked well in group projects,23,2
+234,179,682,FIRST SEMESTER,2003,student arrived late to class,55,1
+235,517,759,THIRD SEMESTER,2013,student asked insightful questions,36,1
+236,223,866,SECOND SEMESTER,2017,student asked insightful questions,51,1
+237,976,266,SUMMER SEMESTER,2016,student exhibited disruptive behavior,71,2
+238,102,646,FIRST SEMESTER,2013,student showed improvement in test scores,94,1
+239,215,443,SUMMER SEMESTER,2017,student arrived late to class,70,2
+240,580,672,WINTER SEMESTER,2016,student exhibited disruptive behavior,9,1
+241,326,373,SECOND SEMESTER,2012,student exhibited disruptive behavior,55,2
+242,126,885,WINTER SEMESTER,2007,student worked well in group projects,50,2
+243,876,217,SECOND SEMESTER,0,student participated actively in discussion,9,2
+244,132,950,WINTER SEMESTER,2004,student arrived late to class,8,2
+245,794,205,SUMMER SEMESTER,2009,student arrived late to class,24,1
+246,723,121,SECOND SEMESTER,2004,student worked well in group projects,92,1
+247,781,581,WINTER SEMESTER,2014,student arrived late to class,76,2
+248,643,325,THIRD SEMESTER,2017,student needed extra help with the lesson,64,2
+249,634,220,WINTER SEMESTER,2017,student arrived late to class,29,2
+250,641,305,FIRST SEMESTER,2010,student participated actively in discussion,97,1
+251,995,174,THIRD SEMESTER,2004,student participated actively in discussion,87,2
+252,769,421,WINTER SEMESTER,2013,student asked insightful questions,42,2
+253,188,223,WINTER SEMESTER,2013,student was absent without notice,89,1
+254,639,656,THIRD SEMESTER,2003,student asked insightful questions,57,1
+255,587,838,WINTER SEMESTER,2008,student demonstrated strong understanding of the material,73,1
+256,286,688,FIRST SEMESTER,2014,student arrived late to class,29,2
+257,985,802,THIRD SEMESTER,2018,student was absent without notice,47,2
+258,898,978,SECOND SEMESTER,2014,student needed extra help with the lesson,31,2
+259,82,537,FIRST SEMESTER,2009,student was absent without notice,89,1
+260,916,586,WINTER SEMESTER,2009,student exhibited disruptive behavior,59,1
+261,977,853,WINTER SEMESTER,2017,student arrived late to class,15,2
+262,821,691,WINTER SEMESTER,2015,student demonstrated strong understanding of the material,28,2
+263,176,121,WINTER SEMESTER,2016,student showed improvement in test scores,3,1
+264,471,312,SUMMER SEMESTER,2011,student was absent without notice,48,2
+265,609,862,SECOND SEMESTER,2008,student was absent without notice,17,2
+266,996,381,THIRD SEMESTER,2015,student worked well in group projects,98,1
+267,506,825,SUMMER SEMESTER,2019,student needed extra help with the lesson,26,1
+268,717,601,SUMMER SEMESTER,2015,student showed improvement in test scores,33,2
+269,179,147,SUMMER SEMESTER,2017,student was absent without notice,43,1
+270,632,697,SUMMER SEMESTER,2010,student was absent without notice,93,2
+271,863,637,SUMMER SEMESTER,2020,student showed improvement in test scores,68,2
+272,94,420,THIRD SEMESTER,2019,student needed extra help with the lesson,47,2
+273,271,530,FIRST SEMESTER,2014,student needed extra help with the lesson,47,1
+274,548,674,FIRST SEMESTER,2017,student showed improvement in test scores,70,2
+275,80,845,THIRD SEMESTER,2013,student asked insightful questions,7,2
+276,231,390,SECOND SEMESTER,2009,student worked well in group projects,29,2
+277,425,738,THIRD SEMESTER,2011,student exhibited disruptive behavior,9,2
+278,212,978,SECOND SEMESTER,2011,student completed assignment on time,4,1
+279,72,353,SECOND SEMESTER,2006,student participated actively in discussion,59,2
+280,623,410,SUMMER SEMESTER,2013,student asked insightful questions,75,2
+281,362,587,FIRST SEMESTER,2012,student participated actively in discussion,34,2
+282,183,481,FIRST SEMESTER,2011,student showed improvement in test scores,30,1
+283,898,718,FIRST SEMESTER,2005,student demonstrated strong understanding of the material,30,2
+284,500,744,THIRD SEMESTER,0,student participated actively in discussion,13,1
+285,392,853,THIRD SEMESTER,2010,student exhibited disruptive behavior,5,1
+286,260,43,SECOND SEMESTER,2019,student participated actively in discussion,62,1
+287,789,796,SUMMER SEMESTER,2001,student showed improvement in test scores,2,1
+288,782,17,WINTER SEMESTER,2014,student was absent without notice,5,1
+289,847,75,THIRD SEMESTER,2013,student exhibited disruptive behavior,11,1
+290,201,864,SUMMER SEMESTER,2014,student participated actively in discussion,83,2
+291,724,663,FIRST SEMESTER,2009,student arrived late to class,58,1
+292,819,169,WINTER SEMESTER,2019,student showed improvement in test scores,97,2
+293,564,563,SECOND SEMESTER,2016,student worked well in group projects,63,2
+294,393,869,FIRST SEMESTER,2012,student exhibited disruptive behavior,37,1
+295,100,772,SUMMER SEMESTER,2014,student arrived late to class,90,2
+296,961,667,WINTER SEMESTER,2013,student showed improvement in test scores,42,2
+297,911,536,THIRD SEMESTER,2008,student completed assignment on time,24,2
+298,658,83,SECOND SEMESTER,2008,student worked well in group projects,18,2
+299,827,809,SECOND SEMESTER,2014,student demonstrated strong understanding of the material,94,1
+300,438,344,WINTER SEMESTER,2011,student arrived late to class,79,2
+301,372,505,THIRD SEMESTER,2011,student arrived late to class,80,2
+302,78,550,SUMMER SEMESTER,2020,student was absent without notice,69,1
+303,706,980,WINTER SEMESTER,2006,student completed assignment on time,93,1
+304,519,113,THIRD SEMESTER,2020,student needed extra help with the lesson,98,1
+305,846,11,FIRST SEMESTER,2005,student worked well in group projects,14,2
+306,161,901,THIRD SEMESTER,2004,student demonstrated strong understanding of the material,54,1
+307,49,937,THIRD SEMESTER,2014,student worked well in group projects,82,1
+308,224,758,SUMMER SEMESTER,2004,student asked insightful questions,46,1
+309,730,444,WINTER SEMESTER,2001,student worked well in group projects,17,1
+310,649,819,SUMMER SEMESTER,2016,student showed improvement in test scores,29,2
+311,887,816,FIRST SEMESTER,2011,student demonstrated strong understanding of the material,98,1
+312,48,500,SECOND SEMESTER,2014,student demonstrated strong understanding of the material,88,2
+313,856,795,SUMMER SEMESTER,2005,student showed improvement in test scores,3,2
+314,745,525,THIRD SEMESTER,2017,student participated actively in discussion,21,1
+315,571,548,THIRD SEMESTER,2015,student exhibited disruptive behavior,12,1
+316,980,258,SECOND SEMESTER,2008,student demonstrated strong understanding of the material,21,2
+317,38,3,WINTER SEMESTER,2004,student worked well in group projects,66,1
+318,316,762,SECOND SEMESTER,2013,student needed extra help with the lesson,27,2
+319,219,945,SUMMER SEMESTER,2010,student arrived late to class,97,2
+320,315,494,SUMMER SEMESTER,2016,student worked well in group projects,82,1
+321,341,371,THIRD SEMESTER,2008,student asked insightful questions,28,1
+322,470,538,FIRST SEMESTER,2004,student completed assignment on time,93,2
+323,268,418,SUMMER SEMESTER,2019,student asked insightful questions,0,2
+324,118,273,THIRD SEMESTER,2005,student demonstrated strong understanding of the material,36,1
+325,617,377,SECOND SEMESTER,2014,student exhibited disruptive behavior,17,1
+326,900,479,SUMMER SEMESTER,2012,student participated actively in discussion,69,2
+327,44,534,FIRST SEMESTER,2012,student worked well in group projects,11,2
+328,276,322,SUMMER SEMESTER,2016,student showed improvement in test scores,99,2
+329,6,459,SECOND SEMESTER,1995,student exhibited disruptive behavior,23,2
+330,420,78,THIRD SEMESTER,2017,student was absent without notice,42,2
+331,349,684,WINTER SEMESTER,2004,student was absent without notice,6,2
+332,447,457,SECOND SEMESTER,2007,student asked insightful questions,49,2
+333,672,826,FIRST SEMESTER,2016,student arrived late to class,13,2
+334,827,847,SECOND SEMESTER,2005,student needed extra help with the lesson,15,2
+335,865,85,THIRD SEMESTER,2020,student needed extra help with the lesson,11,2
+336,162,257,SECOND SEMESTER,2019,student demonstrated strong understanding of the material,17,2
+337,577,166,SECOND SEMESTER,2007,student demonstrated strong understanding of the material,59,1
+338,761,93,SUMMER SEMESTER,2011,student arrived late to class,84,1
+339,297,782,THIRD SEMESTER,2014,student asked insightful questions,82,1
+340,766,56,SECOND SEMESTER,2020,student demonstrated strong understanding of the material,88,1
+341,786,667,THIRD SEMESTER,2012,student was absent without notice,85,1
+342,857,28,FIRST SEMESTER,2015,student participated actively in discussion,34,2
+343,441,450,SUMMER SEMESTER,2015,student exhibited disruptive behavior,33,2
+344,944,85,THIRD SEMESTER,2016,student arrived late to class,66,2
+345,805,576,SECOND SEMESTER,2015,student needed extra help with the lesson,55,2
+346,320,166,WINTER SEMESTER,2014,student exhibited disruptive behavior,36,2
+347,438,446,SECOND SEMESTER,2020,student was absent without notice,40,2
+348,19,328,SUMMER SEMESTER,0,student needed extra help with the lesson,49,2
+349,649,37,SECOND SEMESTER,2014,student worked well in group projects,48,1
+350,788,672,SUMMER SEMESTER,2015,student exhibited disruptive behavior,57,1
+351,796,914,FIRST SEMESTER,2007,student asked insightful questions,12,2
+352,331,798,SECOND SEMESTER,2018,student needed extra help with the lesson,10,1
+353,810,216,SUMMER SEMESTER,2010,student showed improvement in test scores,12,2
+354,211,935,SUMMER SEMESTER,2005,student worked well in group projects,12,2
+355,681,42,SECOND SEMESTER,2004,student exhibited disruptive behavior,14,2
+356,530,583,WINTER SEMESTER,2014,student worked well in group projects,5,1
+357,676,174,WINTER SEMESTER,2008,student showed improvement in test scores,88,2
+358,990,202,FIRST SEMESTER,2012,student was absent without notice,79,2
+359,777,512,SECOND SEMESTER,2005,student demonstrated strong understanding of the material,60,2
+360,302,719,SUMMER SEMESTER,2013,student needed extra help with the lesson,1,1
+361,541,229,SUMMER SEMESTER,2015,student worked well in group projects,30,1
+362,697,812,SUMMER SEMESTER,2012,student was absent without notice,84,2
+363,355,349,SUMMER SEMESTER,2017,student showed improvement in test scores,59,2
+364,584,845,SUMMER SEMESTER,2010,student demonstrated strong understanding of the material,13,2
+365,950,321,FIRST SEMESTER,2009,student showed improvement in test scores,11,2
+366,103,510,FIRST SEMESTER,2007,student asked insightful questions,38,2
+367,722,628,WINTER SEMESTER,2016,student arrived late to class,92,2
+368,583,380,WINTER SEMESTER,2015,student participated actively in discussion,66,1
+369,75,607,THIRD SEMESTER,2008,student exhibited disruptive behavior,26,1
+370,772,992,SUMMER SEMESTER,2012,student demonstrated strong understanding of the material,93,1
+371,89,799,WINTER SEMESTER,1999,student demonstrated strong understanding of the material,31,2
+372,342,791,SECOND SEMESTER,2005,student arrived late to class,89,1
+373,934,853,SUMMER SEMESTER,2012,student arrived late to class,62,1
+374,66,177,SECOND SEMESTER,2005,student needed extra help with the lesson,50,2
+375,869,949,SUMMER SEMESTER,0,student arrived late to class,56,1
+376,448,545,SUMMER SEMESTER,2003,student showed improvement in test scores,56,1
+377,870,398,WINTER SEMESTER,2012,student showed improvement in test scores,75,1
+378,869,21,THIRD SEMESTER,2016,student was absent without notice,27,1
+379,501,413,SECOND SEMESTER,2004,student needed extra help with the lesson,19,2
+380,551,332,SECOND SEMESTER,2008,student participated actively in discussion,10,2
+381,966,712,FIRST SEMESTER,2005,student showed improvement in test scores,53,1
+382,818,450,WINTER SEMESTER,2013,student was absent without notice,8,2
+383,596,358,FIRST SEMESTER,2012,student arrived late to class,55,1
+384,595,561,SUMMER SEMESTER,2020,student needed extra help with the lesson,60,2
+385,984,104,THIRD SEMESTER,2014,student needed extra help with the lesson,30,2
+386,531,233,WINTER SEMESTER,2010,student was absent without notice,83,1
+387,56,989,FIRST SEMESTER,2013,student exhibited disruptive behavior,36,1
+388,495,761,THIRD SEMESTER,2017,student exhibited disruptive behavior,92,1
+389,799,658,WINTER SEMESTER,2018,student needed extra help with the lesson,96,2
+390,290,640,FIRST SEMESTER,2004,student participated actively in discussion,78,2
+391,41,181,SECOND SEMESTER,2014,student was absent without notice,90,1
+392,175,768,FIRST SEMESTER,2012,student was absent without notice,51,1
+393,619,739,SECOND SEMESTER,2017,student demonstrated strong understanding of the material,16,2
+394,196,657,THIRD SEMESTER,2018,student arrived late to class,70,2
+395,360,850,SECOND SEMESTER,2017,student showed improvement in test scores,74,2
+396,936,413,SUMMER SEMESTER,2008,student showed improvement in test scores,3,2
+397,612,120,FIRST SEMESTER,2014,student completed assignment on time,100,1
+398,425,566,FIRST SEMESTER,2011,student demonstrated strong understanding of the material,95,1
+399,681,553,SECOND SEMESTER,2007,student worked well in group projects,61,2
+400,670,422,FIRST SEMESTER,2013,student needed extra help with the lesson,53,2
+401,32,345,THIRD SEMESTER,2000,student participated actively in discussion,63,1
+402,241,766,FIRST SEMESTER,2018,student needed extra help with the lesson,13,2
+403,527,135,SECOND SEMESTER,2017,student completed assignment on time,10,1
+404,507,876,THIRD SEMESTER,2012,student asked insightful questions,42,1
+405,99,400,SUMMER SEMESTER,2010,student demonstrated strong understanding of the material,13,1
+406,581,956,WINTER SEMESTER,2005,student demonstrated strong understanding of the material,95,1
+407,434,513,SECOND SEMESTER,2015,student participated actively in discussion,53,1
+408,710,207,WINTER SEMESTER,2013,student was absent without notice,70,1
+409,402,934,SUMMER SEMESTER,2018,student showed improvement in test scores,6,1
+410,253,472,SUMMER SEMESTER,2013,student showed improvement in test scores,77,2
+411,54,902,THIRD SEMESTER,2011,student asked insightful questions,81,2
+412,665,223,FIRST SEMESTER,2020,student completed assignment on time,5,2
+413,568,833,SUMMER SEMESTER,2015,student showed improvement in test scores,58,2
+414,543,486,SUMMER SEMESTER,2013,student worked well in group projects,27,1
+415,775,260,THIRD SEMESTER,2015,student showed improvement in test scores,70,2
+416,271,530,SUMMER SEMESTER,2016,student exhibited disruptive behavior,55,2
+417,775,940,FIRST SEMESTER,0,student worked well in group projects,45,1
+418,813,683,SUMMER SEMESTER,2011,student demonstrated strong understanding of the material,16,2
+419,570,114,THIRD SEMESTER,2013,student arrived late to class,85,2
+420,974,515,FIRST SEMESTER,2016,student exhibited disruptive behavior,65,1
+421,805,244,SUMMER SEMESTER,2003,student needed extra help with the lesson,47,1
+422,348,9,SUMMER SEMESTER,2010,student showed improvement in test scores,95,1
+423,544,392,WINTER SEMESTER,2017,student arrived late to class,71,1
+424,494,39,THIRD SEMESTER,2017,student demonstrated strong understanding of the material,45,1
+425,629,366,THIRD SEMESTER,2006,student asked insightful questions,94,2
+426,889,205,SUMMER SEMESTER,0,student participated actively in discussion,12,2
+427,334,42,THIRD SEMESTER,2016,student demonstrated strong understanding of the material,88,2
+428,670,909,SUMMER SEMESTER,2020,student showed improvement in test scores,41,1
+429,237,459,SECOND SEMESTER,2012,student showed improvement in test scores,60,1
+430,935,94,THIRD SEMESTER,2013,student exhibited disruptive behavior,0,2
+431,106,593,FIRST SEMESTER,2008,student worked well in group projects,92,2
+432,619,795,SUMMER SEMESTER,2013,student demonstrated strong understanding of the material,38,1
+433,550,895,SECOND SEMESTER,2015,student showed improvement in test scores,89,2
+434,284,549,THIRD SEMESTER,2010,student worked well in group projects,78,2
+435,925,812,SUMMER SEMESTER,2007,student needed extra help with the lesson,66,1
+436,178,892,SUMMER SEMESTER,2018,student worked well in group projects,70,2
+437,650,59,SUMMER SEMESTER,2006,student exhibited disruptive behavior,41,2
+438,754,7,SECOND SEMESTER,0,student needed extra help with the lesson,53,1
+439,620,130,SECOND SEMESTER,2004,student was absent without notice,76,1
+440,169,810,THIRD SEMESTER,2007,student worked well in group projects,52,2
+441,177,220,SECOND SEMESTER,2011,student arrived late to class,80,1
+442,905,908,SUMMER SEMESTER,2020,student worked well in group projects,49,1
+443,741,449,SECOND SEMESTER,2017,student was absent without notice,82,2
+444,256,637,SECOND SEMESTER,2012,student asked insightful questions,73,1
+445,749,265,SECOND SEMESTER,2016,student worked well in group projects,87,1
+446,302,421,THIRD SEMESTER,2019,student was absent without notice,29,1
+447,479,591,THIRD SEMESTER,2010,student needed extra help with the lesson,65,2
+448,438,973,FIRST SEMESTER,2015,student showed improvement in test scores,23,2
+449,108,832,FIRST SEMESTER,2015,student asked insightful questions,37,2
+450,765,731,SECOND SEMESTER,0,student exhibited disruptive behavior,4,1
+451,304,373,SECOND SEMESTER,2006,student arrived late to class,73,2
+452,993,333,SUMMER SEMESTER,2017,student demonstrated strong understanding of the material,14,2
+453,961,745,SUMMER SEMESTER,2013,student needed extra help with the lesson,18,1
+454,703,185,THIRD SEMESTER,2020,student asked insightful questions,20,1
+455,586,261,THIRD SEMESTER,2016,student needed extra help with the lesson,66,2
+456,897,711,FIRST SEMESTER,2013,student was absent without notice,17,1
+457,682,54,WINTER SEMESTER,2003,student needed extra help with the lesson,46,2
+458,963,217,SECOND SEMESTER,2012,student participated actively in discussion,16,2
+459,153,37,FIRST SEMESTER,2010,student showed improvement in test scores,25,2
+460,850,72,SECOND SEMESTER,2004,student was absent without notice,35,1
+461,865,925,WINTER SEMESTER,2011,student arrived late to class,71,2
+462,457,572,SUMMER SEMESTER,2021,student participated actively in discussion,0,2
+463,488,751,THIRD SEMESTER,0,student asked insightful questions,45,2
+464,313,515,SECOND SEMESTER,2018,student was absent without notice,57,1
+465,523,14,SECOND SEMESTER,2004,student asked insightful questions,88,1
+466,540,307,WINTER SEMESTER,2011,student completed assignment on time,89,2
+467,687,356,SECOND SEMESTER,2012,student demonstrated strong understanding of the material,99,1
+468,830,261,SECOND SEMESTER,2013,student asked insightful questions,85,2
+469,767,761,FIRST SEMESTER,2002,student showed improvement in test scores,81,1
+470,804,94,SUMMER SEMESTER,2010,student exhibited disruptive behavior,29,1
+471,155,663,WINTER SEMESTER,2013,student demonstrated strong understanding of the material,18,1
+472,726,244,THIRD SEMESTER,2002,student completed assignment on time,54,2
+473,764,420,SECOND SEMESTER,2011,student participated actively in discussion,37,1
+474,928,164,WINTER SEMESTER,2011,student exhibited disruptive behavior,70,1
+475,329,840,WINTER SEMESTER,2009,student completed assignment on time,1,2
+476,132,618,FIRST SEMESTER,2004,student participated actively in discussion,73,2
+477,793,841,THIRD SEMESTER,2012,student exhibited disruptive behavior,24,1
+478,995,778,THIRD SEMESTER,2020,student showed improvement in test scores,23,2
+479,599,401,SUMMER SEMESTER,2009,student participated actively in discussion,88,2
+480,230,923,SUMMER SEMESTER,2014,student asked insightful questions,50,1
+481,937,822,SUMMER SEMESTER,2018,student demonstrated strong understanding of the material,69,1
+482,377,858,FIRST SEMESTER,1999,student was absent without notice,26,1
+483,413,8,THIRD SEMESTER,2018,student arrived late to class,54,2
+484,472,53,WINTER SEMESTER,2020,student worked well in group projects,54,1
+485,228,927,WINTER SEMESTER,2013,student exhibited disruptive behavior,53,1
+486,420,901,WINTER SEMESTER,2013,student exhibited disruptive behavior,13,2
+487,741,898,THIRD SEMESTER,2009,student participated actively in discussion,48,1
+488,528,475,SECOND SEMESTER,2003,student participated actively in discussion,98,2
+489,51,565,THIRD SEMESTER,2018,student completed assignment on time,44,2
+490,308,567,WINTER SEMESTER,2007,student was absent without notice,89,1
+491,206,601,SUMMER SEMESTER,2015,student asked insightful questions,43,2
+492,342,223,SUMMER SEMESTER,2000,student arrived late to class,16,2
+493,916,96,THIRD SEMESTER,2016,student worked well in group projects,22,2
+494,772,50,SUMMER SEMESTER,2008,student needed extra help with the lesson,33,2
+495,872,230,FIRST SEMESTER,2008,student completed assignment on time,88,2
+496,527,107,SUMMER SEMESTER,0,student demonstrated strong understanding of the material,31,1
+497,15,432,WINTER SEMESTER,2012,student completed assignment on time,89,2
+498,492,122,FIRST SEMESTER,2013,student completed assignment on time,95,1
+499,199,912,FIRST SEMESTER,2009,student completed assignment on time,71,1
+500,607,692,WINTER SEMESTER,2010,student worked well in group projects,6,2
+501,612,821,SUMMER SEMESTER,2007,student exhibited disruptive behavior,3,2
+502,518,656,FIRST SEMESTER,2003,student worked well in group projects,66,2
+503,850,23,SUMMER SEMESTER,2007,student worked well in group projects,84,1
+504,973,615,WINTER SEMESTER,2020,student asked insightful questions,76,1
+505,730,126,THIRD SEMESTER,2009,student showed improvement in test scores,11,2
+506,885,804,THIRD SEMESTER,2008,student arrived late to class,80,1
+507,41,580,THIRD SEMESTER,2019,student demonstrated strong understanding of the material,49,2
+508,613,89,SECOND SEMESTER,2006,student was absent without notice,9,1
+509,996,685,SECOND SEMESTER,2020,student demonstrated strong understanding of the material,41,1
+510,812,369,THIRD SEMESTER,2006,student showed improvement in test scores,6,1
+511,745,313,SUMMER SEMESTER,2007,student participated actively in discussion,83,2
+512,218,403,SUMMER SEMESTER,2008,student completed assignment on time,24,2
+513,150,345,SECOND SEMESTER,2010,student worked well in group projects,100,1
+514,913,873,WINTER SEMESTER,2012,student showed improvement in test scores,45,1
+515,360,116,THIRD SEMESTER,2014,student exhibited disruptive behavior,63,1
+516,850,729,SECOND SEMESTER,2014,student needed extra help with the lesson,23,2
+517,352,151,WINTER SEMESTER,0,student participated actively in discussion,31,2
+518,952,674,SECOND SEMESTER,2016,student demonstrated strong understanding of the material,91,1
+519,730,437,WINTER SEMESTER,2014,student was absent without notice,8,2
+520,220,358,WINTER SEMESTER,2005,student worked well in group projects,44,1
+521,767,597,WINTER SEMESTER,2008,student asked insightful questions,51,1
+522,906,355,SUMMER SEMESTER,2013,student completed assignment on time,46,2
+523,903,114,WINTER SEMESTER,2019,student exhibited disruptive behavior,55,1
+524,948,347,FIRST SEMESTER,2018,student was absent without notice,1,1
+525,835,910,WINTER SEMESTER,2011,student asked insightful questions,17,1
+526,234,288,WINTER SEMESTER,2006,student worked well in group projects,34,2
+527,210,148,WINTER SEMESTER,2009,student exhibited disruptive behavior,89,1
+528,357,348,SUMMER SEMESTER,2020,student arrived late to class,68,2
+529,989,434,THIRD SEMESTER,2020,student needed extra help with the lesson,35,2
+530,3,784,FIRST SEMESTER,2013,student was absent without notice,87,2
+531,305,629,SUMMER SEMESTER,2015,student asked insightful questions,86,1
+532,705,470,THIRD SEMESTER,2016,student showed improvement in test scores,23,1
+533,775,963,SUMMER SEMESTER,2017,student arrived late to class,3,2
+534,78,331,FIRST SEMESTER,2008,student exhibited disruptive behavior,14,2
+535,189,851,SECOND SEMESTER,2015,student worked well in group projects,89,2
+536,752,109,SECOND SEMESTER,2016,student completed assignment on time,83,1
+537,629,196,THIRD SEMESTER,2016,student completed assignment on time,41,2
+538,255,98,SECOND SEMESTER,2020,student asked insightful questions,55,1
+539,832,98,THIRD SEMESTER,2011,student showed improvement in test scores,53,1
+540,473,741,SECOND SEMESTER,2010,student completed assignment on time,19,1
+541,712,786,SUMMER SEMESTER,2016,student exhibited disruptive behavior,19,1
+542,941,173,WINTER SEMESTER,2016,student completed assignment on time,43,1
+543,340,768,WINTER SEMESTER,2016,student exhibited disruptive behavior,98,1
+544,267,76,THIRD SEMESTER,2013,student completed assignment on time,31,1
+545,239,788,SUMMER SEMESTER,2018,student participated actively in discussion,32,1
+546,277,334,WINTER SEMESTER,2003,student exhibited disruptive behavior,69,2
+547,263,902,SECOND SEMESTER,2010,student demonstrated strong understanding of the material,0,2
+548,944,104,WINTER SEMESTER,2018,student needed extra help with the lesson,32,2
+549,193,721,FIRST SEMESTER,2019,student was absent without notice,50,1
+550,280,256,WINTER SEMESTER,2010,student needed extra help with the lesson,10,2
+551,103,207,SUMMER SEMESTER,2016,student completed assignment on time,27,1
+552,147,671,THIRD SEMESTER,2015,student completed assignment on time,8,1
+553,235,489,SECOND SEMESTER,2009,student asked insightful questions,75,2
+554,420,248,THIRD SEMESTER,2020,student arrived late to class,0,1
+555,836,169,SUMMER SEMESTER,2008,student was absent without notice,3,2
+556,402,797,WINTER SEMESTER,2016,student was absent without notice,0,1
+557,933,787,THIRD SEMESTER,2011,student worked well in group projects,65,2
+558,752,417,SUMMER SEMESTER,2015,student asked insightful questions,86,1
+559,935,420,WINTER SEMESTER,2018,student completed assignment on time,0,1
+560,353,970,THIRD SEMESTER,2018,student demonstrated strong understanding of the material,10,2
+561,880,477,SECOND SEMESTER,2014,student asked insightful questions,77,1
+562,285,874,SECOND SEMESTER,2011,student showed improvement in test scores,67,1
+563,661,679,FIRST SEMESTER,2015,student needed extra help with the lesson,40,1
+564,783,94,FIRST SEMESTER,2013,student arrived late to class,50,2
+565,646,284,WINTER SEMESTER,2005,student was absent without notice,46,2
+566,161,653,THIRD SEMESTER,2006,student demonstrated strong understanding of the material,98,2
+567,17,285,SECOND SEMESTER,2017,student arrived late to class,56,1
+568,727,93,FIRST SEMESTER,2016,student needed extra help with the lesson,88,2
+569,982,266,WINTER SEMESTER,2015,student worked well in group projects,47,1
+570,623,677,FIRST SEMESTER,2016,student showed improvement in test scores,82,2
+571,712,355,SECOND SEMESTER,2011,student needed extra help with the lesson,19,2
+572,406,766,SUMMER SEMESTER,0,student arrived late to class,88,2
+573,454,896,THIRD SEMESTER,2015,student worked well in group projects,98,1
+574,20,105,FIRST SEMESTER,2012,student completed assignment on time,77,1
+575,251,834,WINTER SEMESTER,2014,student participated actively in discussion,35,2
+576,329,479,SECOND SEMESTER,2020,student demonstrated strong understanding of the material,82,1
+577,433,731,SUMMER SEMESTER,2015,student showed improvement in test scores,44,2
+578,320,481,SUMMER SEMESTER,2004,student needed extra help with the lesson,51,1
+579,936,171,THIRD SEMESTER,2004,student demonstrated strong understanding of the material,85,2
+580,950,71,THIRD SEMESTER,2006,student needed extra help with the lesson,59,2
+581,7,838,WINTER SEMESTER,2009,student arrived late to class,69,2
+582,489,641,FIRST SEMESTER,2005,student demonstrated strong understanding of the material,22,2
+583,711,949,SUMMER SEMESTER,2014,student completed assignment on time,15,1
+584,444,514,SUMMER SEMESTER,2010,student completed assignment on time,71,1
+585,785,809,WINTER SEMESTER,2011,student was absent without notice,95,1
+586,340,530,THIRD SEMESTER,2020,student demonstrated strong understanding of the material,69,1
+587,720,352,THIRD SEMESTER,2018,student needed extra help with the lesson,47,2
+588,27,897,SUMMER SEMESTER,2009,student was absent without notice,0,1
+589,85,661,FIRST SEMESTER,2021,student participated actively in discussion,34,1
+590,829,127,THIRD SEMESTER,2009,student showed improvement in test scores,70,2
+591,197,656,WINTER SEMESTER,2018,student participated actively in discussion,32,1
+592,286,309,FIRST SEMESTER,2009,student showed improvement in test scores,10,2
+593,873,115,WINTER SEMESTER,2016,student participated actively in discussion,36,2
+594,165,903,THIRD SEMESTER,2020,student demonstrated strong understanding of the material,86,2
+595,925,420,THIRD SEMESTER,2000,student exhibited disruptive behavior,42,2
+596,297,785,THIRD SEMESTER,2006,student completed assignment on time,62,1
+597,163,232,THIRD SEMESTER,2018,student needed extra help with the lesson,54,2
+598,215,96,FIRST SEMESTER,2012,student needed extra help with the lesson,86,1
+599,689,685,WINTER SEMESTER,2004,student completed assignment on time,93,2
+600,246,275,WINTER SEMESTER,2009,student was absent without notice,70,1
+601,85,701,THIRD SEMESTER,1997,student worked well in group projects,59,1
+602,115,492,THIRD SEMESTER,2006,student showed improvement in test scores,53,2
+603,478,51,SUMMER SEMESTER,2017,student asked insightful questions,41,1
+604,81,148,THIRD SEMESTER,2019,student worked well in group projects,23,2
+605,638,672,FIRST SEMESTER,2005,student worked well in group projects,91,1
+606,788,571,THIRD SEMESTER,2020,student showed improvement in test scores,39,1
+607,510,183,FIRST SEMESTER,2009,student needed extra help with the lesson,70,1
+608,524,995,WINTER SEMESTER,2010,student needed extra help with the lesson,39,1
+609,73,281,WINTER SEMESTER,2006,student demonstrated strong understanding of the material,61,1
+610,768,795,FIRST SEMESTER,2006,student needed extra help with the lesson,27,2
+611,510,351,SUMMER SEMESTER,2013,student demonstrated strong understanding of the material,37,1
+612,331,35,WINTER SEMESTER,2019,student worked well in group projects,25,2
+613,646,204,WINTER SEMESTER,2011,student showed improvement in test scores,2,1
+614,107,589,SECOND SEMESTER,2013,student needed extra help with the lesson,94,1
+615,399,295,FIRST SEMESTER,2021,student participated actively in discussion,9,1
+616,923,840,WINTER SEMESTER,2015,student worked well in group projects,58,2
+617,915,400,THIRD SEMESTER,2020,student needed extra help with the lesson,42,2
+618,305,743,THIRD SEMESTER,2019,student exhibited disruptive behavior,2,1
+619,253,726,SUMMER SEMESTER,2010,student asked insightful questions,89,1
+620,841,23,SECOND SEMESTER,2008,student needed extra help with the lesson,56,2
+621,853,919,SUMMER SEMESTER,2005,student completed assignment on time,22,2
+622,724,451,FIRST SEMESTER,2004,student arrived late to class,64,1
+623,716,322,SUMMER SEMESTER,2000,student worked well in group projects,59,1
+624,992,631,WINTER SEMESTER,2005,student asked insightful questions,77,2
+625,892,457,SECOND SEMESTER,2009,student arrived late to class,50,1
+626,688,186,SUMMER SEMESTER,2009,student worked well in group projects,12,2
+627,548,170,SUMMER SEMESTER,2014,student exhibited disruptive behavior,26,2
+628,302,478,SECOND SEMESTER,2015,student arrived late to class,77,2
+629,995,244,WINTER SEMESTER,2006,student needed extra help with the lesson,8,1
+630,318,149,FIRST SEMESTER,2013,student showed improvement in test scores,43,2
+631,235,518,SUMMER SEMESTER,2006,student worked well in group projects,81,2
+632,354,114,FIRST SEMESTER,2010,student showed improvement in test scores,85,1
+633,302,200,SUMMER SEMESTER,2019,student exhibited disruptive behavior,79,2
+634,139,703,SECOND SEMESTER,2014,student participated actively in discussion,15,2
+635,104,910,FIRST SEMESTER,2009,student worked well in group projects,99,1
+636,224,131,SUMMER SEMESTER,2014,student completed assignment on time,74,1
+637,252,418,SECOND SEMESTER,2020,student participated actively in discussion,84,1
+638,782,295,WINTER SEMESTER,2013,student demonstrated strong understanding of the material,20,2
+639,58,654,WINTER SEMESTER,2006,student completed assignment on time,14,1
+640,300,612,THIRD SEMESTER,2011,student arrived late to class,77,2
+641,20,235,WINTER SEMESTER,2012,student completed assignment on time,65,1
+642,852,384,SECOND SEMESTER,2014,student exhibited disruptive behavior,83,2
+643,566,692,WINTER SEMESTER,2014,student asked insightful questions,83,2
+644,881,563,SECOND SEMESTER,2011,student showed improvement in test scores,77,1
+645,507,979,FIRST SEMESTER,2015,student demonstrated strong understanding of the material,21,1
+646,1000,541,WINTER SEMESTER,2018,student worked well in group projects,6,2
+647,754,46,THIRD SEMESTER,2008,student exhibited disruptive behavior,60,1
+648,179,66,SECOND SEMESTER,2014,student demonstrated strong understanding of the material,86,1
+649,798,823,SUMMER SEMESTER,2015,student participated actively in discussion,35,2
+650,285,670,FIRST SEMESTER,2012,student participated actively in discussion,11,1
+651,513,141,FIRST SEMESTER,2014,student showed improvement in test scores,71,2
+652,278,948,FIRST SEMESTER,0,student was absent without notice,75,2
+653,165,806,SECOND SEMESTER,2016,student asked insightful questions,83,1
+654,34,275,WINTER SEMESTER,2011,student showed improvement in test scores,78,2
+655,68,448,THIRD SEMESTER,2004,student showed improvement in test scores,94,1
+656,696,551,THIRD SEMESTER,2013,student participated actively in discussion,41,1
+657,50,490,WINTER SEMESTER,2008,student demonstrated strong understanding of the material,88,2
+658,975,334,WINTER SEMESTER,2016,student asked insightful questions,20,1
+659,635,620,FIRST SEMESTER,2012,student showed improvement in test scores,80,1
+660,208,161,WINTER SEMESTER,2010,student was absent without notice,51,1
+661,708,886,FIRST SEMESTER,2020,student needed extra help with the lesson,66,2
+662,927,445,THIRD SEMESTER,2013,student exhibited disruptive behavior,58,2
+663,526,631,SECOND SEMESTER,2009,student asked insightful questions,54,2
+664,997,943,SUMMER SEMESTER,2007,student completed assignment on time,59,2
+665,958,67,SECOND SEMESTER,2004,student demonstrated strong understanding of the material,47,1
+666,595,580,SUMMER SEMESTER,2014,student completed assignment on time,90,2
+667,27,691,FIRST SEMESTER,2001,student was absent without notice,28,1
+668,778,398,SUMMER SEMESTER,2016,student showed improvement in test scores,37,2
+669,971,609,WINTER SEMESTER,2017,student worked well in group projects,73,1
+670,940,218,FIRST SEMESTER,2011,student asked insightful questions,58,2
+671,529,503,FIRST SEMESTER,2018,student arrived late to class,68,1
+672,139,230,FIRST SEMESTER,2015,student showed improvement in test scores,16,1
+673,486,718,SECOND SEMESTER,2004,student completed assignment on time,42,1
+674,334,79,SUMMER SEMESTER,2017,student worked well in group projects,47,1
+675,531,596,WINTER SEMESTER,2018,student demonstrated strong understanding of the material,15,2
+676,459,726,FIRST SEMESTER,2017,student showed improvement in test scores,74,2
+677,663,431,FIRST SEMESTER,1995,student asked insightful questions,44,1
+678,888,521,SECOND SEMESTER,2005,student asked insightful questions,66,1
+679,652,164,SECOND SEMESTER,2019,student needed extra help with the lesson,18,1
+680,625,392,SUMMER SEMESTER,2010,student arrived late to class,39,1
+681,223,581,SUMMER SEMESTER,2009,student completed assignment on time,27,1
+682,284,696,THIRD SEMESTER,2012,student participated actively in discussion,4,2
+683,839,376,THIRD SEMESTER,2014,student needed extra help with the lesson,6,2
+684,1000,572,FIRST SEMESTER,2008,student participated actively in discussion,19,2
+685,379,593,FIRST SEMESTER,2016,student arrived late to class,35,1
+686,226,578,SUMMER SEMESTER,2001,student demonstrated strong understanding of the material,41,1
+687,634,777,WINTER SEMESTER,2012,student asked insightful questions,21,1
+688,244,374,FIRST SEMESTER,2011,student completed assignment on time,84,2
+689,696,102,WINTER SEMESTER,2010,student participated actively in discussion,30,2
+690,49,777,THIRD SEMESTER,2015,student arrived late to class,71,1
+691,964,21,FIRST SEMESTER,2014,student worked well in group projects,49,2
+692,977,77,SECOND SEMESTER,2016,student worked well in group projects,94,1
+693,656,361,THIRD SEMESTER,2012,student arrived late to class,17,2
+694,170,526,SUMMER SEMESTER,2017,student arrived late to class,9,2
+695,77,365,FIRST SEMESTER,2014,student was absent without notice,52,2
+696,646,675,SECOND SEMESTER,2009,student participated actively in discussion,28,2
+697,958,299,FIRST SEMESTER,2004,student showed improvement in test scores,24,2
+698,602,150,SECOND SEMESTER,2008,student showed improvement in test scores,6,1
+699,735,175,THIRD SEMESTER,2005,student demonstrated strong understanding of the material,75,1
+700,688,339,WINTER SEMESTER,2015,student participated actively in discussion,59,2
+701,227,170,FIRST SEMESTER,2005,student was absent without notice,47,2
+702,828,444,THIRD SEMESTER,2012,student needed extra help with the lesson,83,2
+703,119,405,SUMMER SEMESTER,2018,student arrived late to class,18,1
+704,520,992,FIRST SEMESTER,2004,student was absent without notice,83,1
+705,987,821,FIRST SEMESTER,2012,student was absent without notice,42,2
+706,23,771,SECOND SEMESTER,2004,student asked insightful questions,85,1
+707,791,486,SECOND SEMESTER,2007,student asked insightful questions,44,1
+708,467,874,WINTER SEMESTER,2014,student demonstrated strong understanding of the material,5,2
+709,693,668,FIRST SEMESTER,2014,student exhibited disruptive behavior,79,1
+710,189,369,FIRST SEMESTER,2018,student needed extra help with the lesson,29,1
+711,754,424,SECOND SEMESTER,2003,student needed extra help with the lesson,68,1
+712,490,915,SECOND SEMESTER,2016,student needed extra help with the lesson,19,2
+713,577,657,SECOND SEMESTER,2002,student asked insightful questions,7,1
+714,145,172,WINTER SEMESTER,2011,student participated actively in discussion,1,1
+715,356,348,SECOND SEMESTER,2007,student demonstrated strong understanding of the material,4,1
+716,557,205,FIRST SEMESTER,2008,student arrived late to class,46,2
+717,180,931,FIRST SEMESTER,2015,student participated actively in discussion,16,1
+718,838,447,WINTER SEMESTER,2015,student exhibited disruptive behavior,34,1
+719,339,583,SUMMER SEMESTER,2014,student showed improvement in test scores,25,1
+720,806,928,FIRST SEMESTER,2014,student was absent without notice,5,2
+721,374,910,SUMMER SEMESTER,2020,student worked well in group projects,26,2
+722,615,965,SUMMER SEMESTER,2009,student arrived late to class,55,2
+723,500,991,THIRD SEMESTER,2017,student showed improvement in test scores,71,2
+724,397,218,SECOND SEMESTER,2004,student demonstrated strong understanding of the material,91,1
+725,225,357,WINTER SEMESTER,2012,student worked well in group projects,38,1
+726,973,358,WINTER SEMESTER,2019,student completed assignment on time,78,1
+727,400,823,SECOND SEMESTER,2019,student worked well in group projects,80,1
+728,115,408,SUMMER SEMESTER,2018,student participated actively in discussion,46,2
+729,67,570,WINTER SEMESTER,2021,student worked well in group projects,34,2
+730,510,482,WINTER SEMESTER,2016,student showed improvement in test scores,50,1
+731,578,493,SUMMER SEMESTER,2011,student arrived late to class,85,2
+732,868,579,SUMMER SEMESTER,2014,student completed assignment on time,32,2
+733,659,500,SUMMER SEMESTER,2014,student worked well in group projects,93,2
+734,806,512,SECOND SEMESTER,2014,student arrived late to class,62,1
+735,225,958,SUMMER SEMESTER,2008,student completed assignment on time,72,2
+736,755,764,THIRD SEMESTER,2009,student exhibited disruptive behavior,6,1
+737,622,255,WINTER SEMESTER,2016,student demonstrated strong understanding of the material,70,1
+738,671,670,THIRD SEMESTER,2018,student needed extra help with the lesson,3,1
+739,178,796,SUMMER SEMESTER,2009,student demonstrated strong understanding of the material,82,2
+740,244,581,SUMMER SEMESTER,2012,student worked well in group projects,71,2
+741,746,174,WINTER SEMESTER,2005,student completed assignment on time,98,1
+742,221,731,FIRST SEMESTER,2011,student arrived late to class,85,1
+743,291,85,SECOND SEMESTER,2019,student asked insightful questions,45,1
+744,936,2,THIRD SEMESTER,2015,student participated actively in discussion,48,1
+745,613,134,SECOND SEMESTER,2020,student worked well in group projects,86,2
+746,968,269,FIRST SEMESTER,2002,student was absent without notice,7,1
+747,860,926,SECOND SEMESTER,2013,student needed extra help with the lesson,39,1
+748,513,515,WINTER SEMESTER,2017,student showed improvement in test scores,7,2
+749,655,785,THIRD SEMESTER,2011,student worked well in group projects,61,1
+750,562,373,WINTER SEMESTER,2002,student arrived late to class,56,2
+751,862,990,SECOND SEMESTER,2020,student demonstrated strong understanding of the material,48,1
+752,713,927,FIRST SEMESTER,2016,student arrived late to class,65,1
+753,503,902,WINTER SEMESTER,2019,student needed extra help with the lesson,43,2
+754,740,885,THIRD SEMESTER,2005,student was absent without notice,12,1
+755,32,518,SECOND SEMESTER,2014,student participated actively in discussion,72,1
+756,174,608,SUMMER SEMESTER,2009,student exhibited disruptive behavior,93,2
+757,567,955,SUMMER SEMESTER,2019,student asked insightful questions,40,1
+758,79,967,FIRST SEMESTER,0,student worked well in group projects,44,2
+759,651,122,SECOND SEMESTER,2015,student was absent without notice,66,1
+760,819,780,SUMMER SEMESTER,2017,student demonstrated strong understanding of the material,27,1
+761,265,266,SUMMER SEMESTER,2014,student demonstrated strong understanding of the material,78,1
+762,294,138,FIRST SEMESTER,2005,student worked well in group projects,53,2
+763,964,957,FIRST SEMESTER,2007,student showed improvement in test scores,76,2
+764,744,16,FIRST SEMESTER,2009,student showed improvement in test scores,86,2
+765,439,783,FIRST SEMESTER,2008,student completed assignment on time,89,2
+766,140,547,WINTER SEMESTER,2011,student completed assignment on time,92,1
+767,283,845,SUMMER SEMESTER,2011,student asked insightful questions,59,2
+768,525,926,SUMMER SEMESTER,2013,student asked insightful questions,67,2
+769,538,419,THIRD SEMESTER,2019,student completed assignment on time,75,1
+770,53,124,FIRST SEMESTER,2011,student exhibited disruptive behavior,21,2
+771,610,714,THIRD SEMESTER,2006,student showed improvement in test scores,29,2
+772,947,568,FIRST SEMESTER,2015,student was absent without notice,17,2
+773,214,192,WINTER SEMESTER,2007,student exhibited disruptive behavior,8,2
+774,451,508,THIRD SEMESTER,2006,student arrived late to class,40,1
+775,96,986,SECOND SEMESTER,1998,student exhibited disruptive behavior,39,2
+776,898,912,FIRST SEMESTER,2013,student demonstrated strong understanding of the material,77,1
+777,769,629,SUMMER SEMESTER,2005,student showed improvement in test scores,78,1
+778,12,493,WINTER SEMESTER,2005,student completed assignment on time,11,1
+779,187,477,FIRST SEMESTER,2014,student arrived late to class,46,1
+780,398,607,SUMMER SEMESTER,2017,student demonstrated strong understanding of the material,71,1
+781,25,923,FIRST SEMESTER,2017,student asked insightful questions,12,1
+782,820,767,THIRD SEMESTER,2018,student completed assignment on time,88,1
+783,889,988,WINTER SEMESTER,2008,student asked insightful questions,77,1
+784,514,757,SUMMER SEMESTER,2016,student demonstrated strong understanding of the material,77,2
+785,765,865,SECOND SEMESTER,2015,student completed assignment on time,38,2
+786,262,278,FIRST SEMESTER,2013,student was absent without notice,76,1
+787,306,606,SECOND SEMESTER,2000,student arrived late to class,57,2
+788,474,971,SECOND SEMESTER,2009,student demonstrated strong understanding of the material,35,1
+789,220,890,FIRST SEMESTER,2020,student was absent without notice,64,2
+790,292,303,SUMMER SEMESTER,2007,student worked well in group projects,71,2
+791,726,622,THIRD SEMESTER,2003,student completed assignment on time,81,1
+792,294,972,SECOND SEMESTER,2007,student needed extra help with the lesson,35,1
+793,846,270,THIRD SEMESTER,2011,student worked well in group projects,38,2
+794,957,963,THIRD SEMESTER,2015,student demonstrated strong understanding of the material,10,1
+795,327,852,SUMMER SEMESTER,2010,student needed extra help with the lesson,5,1
+796,335,926,THIRD SEMESTER,2010,student demonstrated strong understanding of the material,82,2
+797,165,850,THIRD SEMESTER,2006,student demonstrated strong understanding of the material,85,1
+798,964,83,WINTER SEMESTER,2011,student arrived late to class,3,2
+799,586,997,FIRST SEMESTER,2020,student exhibited disruptive behavior,47,1
+800,124,304,THIRD SEMESTER,2012,student demonstrated strong understanding of the material,0,1
+801,885,660,FIRST SEMESTER,2015,student demonstrated strong understanding of the material,11,2
+802,59,37,THIRD SEMESTER,2020,student showed improvement in test scores,45,2
+803,538,984,FIRST SEMESTER,2008,student worked well in group projects,92,2
+804,457,990,THIRD SEMESTER,2014,student completed assignment on time,32,1
+805,426,771,THIRD SEMESTER,2004,student was absent without notice,82,2
+806,298,667,WINTER SEMESTER,2015,student showed improvement in test scores,19,2
+807,375,664,THIRD SEMESTER,2011,student completed assignment on time,25,1
+808,515,184,THIRD SEMESTER,2016,student arrived late to class,42,2
+809,303,633,WINTER SEMESTER,2008,student arrived late to class,7,2
+810,155,421,SECOND SEMESTER,2013,student asked insightful questions,9,2
+811,263,95,WINTER SEMESTER,2008,student asked insightful questions,60,2
+812,78,246,WINTER SEMESTER,2005,student needed extra help with the lesson,17,1
+813,805,299,FIRST SEMESTER,2005,student was absent without notice,37,2
+814,233,292,SUMMER SEMESTER,2020,student showed improvement in test scores,73,1
+815,971,513,THIRD SEMESTER,2016,student demonstrated strong understanding of the material,56,2
+816,253,20,SECOND SEMESTER,2004,student was absent without notice,4,1
+817,132,889,WINTER SEMESTER,2019,student needed extra help with the lesson,17,2
+818,786,70,SUMMER SEMESTER,2020,student demonstrated strong understanding of the material,46,1
+819,113,440,SECOND SEMESTER,2004,student needed extra help with the lesson,63,2
+820,611,774,SECOND SEMESTER,2014,student was absent without notice,82,2
+821,433,846,SUMMER SEMESTER,2017,student participated actively in discussion,78,2
+822,648,409,WINTER SEMESTER,2014,student needed extra help with the lesson,52,1
+823,453,285,SECOND SEMESTER,2016,student needed extra help with the lesson,95,1
+824,945,921,SUMMER SEMESTER,2015,student exhibited disruptive behavior,1,2
+825,828,389,THIRD SEMESTER,2003,student arrived late to class,73,2
+826,283,47,SUMMER SEMESTER,2017,student was absent without notice,71,1
+827,540,365,FIRST SEMESTER,2008,student exhibited disruptive behavior,55,2
+828,100,122,FIRST SEMESTER,2009,student worked well in group projects,75,1
+829,579,601,WINTER SEMESTER,2014,student asked insightful questions,20,2
+830,64,480,THIRD SEMESTER,2015,student was absent without notice,93,1
+831,204,302,SUMMER SEMESTER,2004,student asked insightful questions,85,1
+832,83,307,SECOND SEMESTER,2008,student worked well in group projects,3,2
+833,71,823,FIRST SEMESTER,2015,student arrived late to class,42,2
+834,412,190,THIRD SEMESTER,2019,student worked well in group projects,95,2
+835,591,724,WINTER SEMESTER,2010,student showed improvement in test scores,85,2
+836,428,866,SUMMER SEMESTER,2009,student participated actively in discussion,49,1
+837,729,507,FIRST SEMESTER,2021,student was absent without notice,93,1
+838,424,793,SUMMER SEMESTER,2004,student arrived late to class,28,1
+839,829,918,WINTER SEMESTER,2016,student demonstrated strong understanding of the material,60,1
+840,413,371,SUMMER SEMESTER,2006,student needed extra help with the lesson,100,1
+841,495,290,FIRST SEMESTER,2004,student participated actively in discussion,82,1
+842,977,603,SUMMER SEMESTER,2008,student worked well in group projects,81,2
+843,766,37,SECOND SEMESTER,2014,student exhibited disruptive behavior,8,2
+844,600,723,THIRD SEMESTER,2010,student worked well in group projects,85,2
+845,613,376,SECOND SEMESTER,2010,student showed improvement in test scores,41,1
+846,488,478,WINTER SEMESTER,2021,student participated actively in discussion,94,1
+847,794,170,THIRD SEMESTER,1998,student demonstrated strong understanding of the material,95,2
+848,311,317,FIRST SEMESTER,2009,student was absent without notice,68,2
+849,724,952,FIRST SEMESTER,2009,student exhibited disruptive behavior,88,1
+850,329,633,WINTER SEMESTER,2004,student exhibited disruptive behavior,50,2
+851,85,948,SECOND SEMESTER,2008,student exhibited disruptive behavior,96,2
+852,626,949,SECOND SEMESTER,2012,student participated actively in discussion,53,1
+853,73,910,FIRST SEMESTER,2020,student completed assignment on time,72,2
+854,993,236,SUMMER SEMESTER,2020,student participated actively in discussion,20,1
+855,166,892,SUMMER SEMESTER,2015,student completed assignment on time,68,1
+856,406,36,FIRST SEMESTER,2011,student demonstrated strong understanding of the material,15,1
+857,807,383,FIRST SEMESTER,2005,student arrived late to class,3,2
+858,792,799,WINTER SEMESTER,2017,student worked well in group projects,50,2
+859,936,445,FIRST SEMESTER,2016,student was absent without notice,53,1
+860,963,975,WINTER SEMESTER,2015,student worked well in group projects,20,2
+861,245,926,SECOND SEMESTER,2013,student demonstrated strong understanding of the material,51,1
+862,153,244,FIRST SEMESTER,2009,student asked insightful questions,40,1
+863,41,326,SECOND SEMESTER,0,student asked insightful questions,56,1
+864,308,992,SECOND SEMESTER,2021,student demonstrated strong understanding of the material,28,2
+865,825,554,SECOND SEMESTER,2015,student needed extra help with the lesson,4,2
+866,996,691,SECOND SEMESTER,2015,student arrived late to class,18,2
+867,218,601,WINTER SEMESTER,2004,student worked well in group projects,71,2
+868,981,557,SUMMER SEMESTER,2015,student arrived late to class,48,2
+869,604,89,THIRD SEMESTER,2020,student completed assignment on time,79,2
+870,904,479,FIRST SEMESTER,2014,student exhibited disruptive behavior,83,1
+871,965,302,SUMMER SEMESTER,2007,student showed improvement in test scores,42,1
+872,69,796,FIRST SEMESTER,2008,student asked insightful questions,48,1
+873,305,663,SUMMER SEMESTER,2012,student needed extra help with the lesson,31,2
+874,149,367,SUMMER SEMESTER,2015,student needed extra help with the lesson,16,2
+875,388,265,FIRST SEMESTER,2011,student arrived late to class,18,1
+876,6,923,THIRD SEMESTER,0,student participated actively in discussion,64,2
+877,309,974,THIRD SEMESTER,2000,student showed improvement in test scores,22,2
+878,807,1,FIRST SEMESTER,0,student arrived late to class,84,1
+879,945,340,SUMMER SEMESTER,2008,student needed extra help with the lesson,29,1
+880,846,603,SUMMER SEMESTER,2012,student demonstrated strong understanding of the material,25,2
+881,842,705,THIRD SEMESTER,2012,student arrived late to class,14,1
+882,821,218,SECOND SEMESTER,2020,student participated actively in discussion,34,2
+883,128,532,WINTER SEMESTER,2008,student demonstrated strong understanding of the material,27,2
+884,170,751,SUMMER SEMESTER,2009,student asked insightful questions,33,1
+885,374,229,SECOND SEMESTER,2014,student asked insightful questions,97,1
+886,909,758,SECOND SEMESTER,2012,student was absent without notice,52,2
+887,686,738,FIRST SEMESTER,2014,student was absent without notice,1,1
+888,506,256,SECOND SEMESTER,0,student participated actively in discussion,38,2
+889,458,659,WINTER SEMESTER,2016,student worked well in group projects,2,1
+890,654,552,THIRD SEMESTER,2013,student demonstrated strong understanding of the material,89,1
+891,132,122,SECOND SEMESTER,2015,student needed extra help with the lesson,63,1
+892,102,762,SUMMER SEMESTER,0,student arrived late to class,69,1
+893,262,934,SECOND SEMESTER,2015,student worked well in group projects,3,1
+894,626,891,WINTER SEMESTER,1996,student showed improvement in test scores,31,2
+895,190,19,FIRST SEMESTER,2013,student was absent without notice,47,2
+896,452,264,FIRST SEMESTER,2017,student worked well in group projects,95,2
+897,175,50,FIRST SEMESTER,2016,student demonstrated strong understanding of the material,22,1
+898,380,50,WINTER SEMESTER,2006,student needed extra help with the lesson,53,1
+899,365,956,WINTER SEMESTER,2006,student participated actively in discussion,78,2
+900,339,50,FIRST SEMESTER,2014,student showed improvement in test scores,33,2
+901,912,614,WINTER SEMESTER,2014,student exhibited disruptive behavior,7,2
+902,925,486,FIRST SEMESTER,2015,student needed extra help with the lesson,64,2
+903,939,524,WINTER SEMESTER,2013,student needed extra help with the lesson,34,2
+904,862,409,SECOND SEMESTER,2015,student participated actively in discussion,71,1
+905,399,402,SUMMER SEMESTER,2007,student showed improvement in test scores,28,1
+906,574,480,SUMMER SEMESTER,2006,student demonstrated strong understanding of the material,65,1
+907,520,702,FIRST SEMESTER,2012,student participated actively in discussion,7,1
+908,589,254,THIRD SEMESTER,2009,student participated actively in discussion,67,2
+909,413,443,WINTER SEMESTER,2010,student showed improvement in test scores,49,2
+910,955,510,SECOND SEMESTER,2021,student needed extra help with the lesson,42,1
+911,585,541,WINTER SEMESTER,2001,student asked insightful questions,27,2
+912,327,575,THIRD SEMESTER,2016,student showed improvement in test scores,44,2
+913,623,30,WINTER SEMESTER,2004,student needed extra help with the lesson,34,1
+914,558,656,WINTER SEMESTER,2016,student showed improvement in test scores,71,2
+915,184,945,THIRD SEMESTER,2019,student arrived late to class,69,1
+916,722,340,SUMMER SEMESTER,2016,student arrived late to class,13,1
+917,449,251,FIRST SEMESTER,2011,student participated actively in discussion,35,2
+918,159,643,SECOND SEMESTER,2009,student exhibited disruptive behavior,91,2
+919,306,480,THIRD SEMESTER,2012,student asked insightful questions,35,1
+920,826,709,FIRST SEMESTER,2015,student needed extra help with the lesson,59,1
+921,630,872,WINTER SEMESTER,2020,student was absent without notice,5,2
+922,447,696,FIRST SEMESTER,2008,student showed improvement in test scores,29,2
+923,399,186,SECOND SEMESTER,2014,student demonstrated strong understanding of the material,80,1
+924,697,333,SUMMER SEMESTER,2008,student completed assignment on time,66,2
+925,874,421,FIRST SEMESTER,2003,student was absent without notice,48,1
+926,611,444,WINTER SEMESTER,2008,student exhibited disruptive behavior,66,1
+927,188,856,THIRD SEMESTER,2014,student was absent without notice,5,1
+928,125,704,THIRD SEMESTER,2012,student arrived late to class,55,1
+929,468,861,THIRD SEMESTER,2008,student worked well in group projects,63,1
+930,303,660,WINTER SEMESTER,2002,student needed extra help with the lesson,50,2
+931,777,165,THIRD SEMESTER,2020,student needed extra help with the lesson,85,1
+932,357,390,THIRD SEMESTER,1997,student worked well in group projects,9,2
+933,681,625,FIRST SEMESTER,2008,student participated actively in discussion,76,2
+934,290,717,SECOND SEMESTER,2015,student demonstrated strong understanding of the material,42,2
+935,939,293,SUMMER SEMESTER,2015,student arrived late to class,1,2
+936,351,194,SECOND SEMESTER,2016,student exhibited disruptive behavior,25,2
+937,92,908,FIRST SEMESTER,2010,student demonstrated strong understanding of the material,72,2
+938,199,530,SUMMER SEMESTER,2006,student worked well in group projects,38,2
+939,568,62,SECOND SEMESTER,2019,student arrived late to class,48,1
+940,103,162,SUMMER SEMESTER,2017,student demonstrated strong understanding of the material,53,2
+941,321,460,SUMMER SEMESTER,2008,student asked insightful questions,22,2
+942,579,303,WINTER SEMESTER,2011,student demonstrated strong understanding of the material,22,2
+943,592,777,WINTER SEMESTER,2011,student worked well in group projects,38,2
+944,732,605,SECOND SEMESTER,2006,student participated actively in discussion,29,1
+945,933,712,SECOND SEMESTER,2006,student exhibited disruptive behavior,2,1
+946,605,953,SUMMER SEMESTER,2010,student demonstrated strong understanding of the material,92,1
+947,610,939,WINTER SEMESTER,1995,student exhibited disruptive behavior,37,1
+948,990,897,THIRD SEMESTER,2015,student demonstrated strong understanding of the material,91,2
+949,963,230,SUMMER SEMESTER,2014,student showed improvement in test scores,62,2
+950,373,239,SECOND SEMESTER,2007,student needed extra help with the lesson,20,2
+951,244,474,SUMMER SEMESTER,0,student asked insightful questions,47,1
+952,146,255,FIRST SEMESTER,2020,student asked insightful questions,65,2
+953,876,425,SECOND SEMESTER,2005,student exhibited disruptive behavior,92,1
+954,972,628,WINTER SEMESTER,2005,student worked well in group projects,0,2
+955,324,842,THIRD SEMESTER,2009,student completed assignment on time,42,2
+956,921,157,THIRD SEMESTER,2014,student needed extra help with the lesson,34,2
+957,353,842,SUMMER SEMESTER,2012,student completed assignment on time,43,1
+958,115,376,FIRST SEMESTER,1999,student showed improvement in test scores,45,2
+959,40,694,WINTER SEMESTER,2004,student needed extra help with the lesson,74,1
+960,363,808,SUMMER SEMESTER,2004,student participated actively in discussion,43,1
+961,76,453,THIRD SEMESTER,2016,student arrived late to class,52,1
+962,396,487,THIRD SEMESTER,2014,student showed improvement in test scores,74,1
+963,376,779,SUMMER SEMESTER,2018,student participated actively in discussion,79,2
+964,250,462,SUMMER SEMESTER,2015,student completed assignment on time,96,2
+965,114,614,SUMMER SEMESTER,0,student asked insightful questions,55,2
+966,127,597,SUMMER SEMESTER,2015,student asked insightful questions,69,2
+967,537,346,SECOND SEMESTER,2016,student arrived late to class,4,2
+968,283,698,SUMMER SEMESTER,2006,student demonstrated strong understanding of the material,53,2
+969,928,481,SUMMER SEMESTER,2005,student completed assignment on time,81,2
+970,993,276,THIRD SEMESTER,2019,student showed improvement in test scores,20,2
+971,153,201,SUMMER SEMESTER,2013,student worked well in group projects,100,2
+972,826,110,THIRD SEMESTER,2018,student worked well in group projects,89,1
+973,983,760,THIRD SEMESTER,2020,student worked well in group projects,95,1
+974,78,917,THIRD SEMESTER,2002,student needed extra help with the lesson,38,1
+975,691,882,FIRST SEMESTER,0,student worked well in group projects,29,2
+976,288,973,WINTER SEMESTER,0,student exhibited disruptive behavior,100,2
+977,485,717,FIRST SEMESTER,2005,student needed extra help with the lesson,26,2
+978,909,232,SUMMER SEMESTER,2019,student exhibited disruptive behavior,63,2
+979,914,206,THIRD SEMESTER,2004,student arrived late to class,36,1
+980,390,719,SECOND SEMESTER,2017,student participated actively in discussion,66,2
+981,228,556,SUMMER SEMESTER,2002,student completed assignment on time,12,2
+982,841,15,THIRD SEMESTER,2012,student worked well in group projects,5,1
+983,818,117,WINTER SEMESTER,1999,student exhibited disruptive behavior,69,1
+984,936,288,WINTER SEMESTER,2004,student showed improvement in test scores,54,1
+985,491,53,WINTER SEMESTER,2007,student was absent without notice,28,1
+986,903,976,THIRD SEMESTER,2006,student arrived late to class,69,2
+987,245,420,FIRST SEMESTER,0,student needed extra help with the lesson,38,2
+988,773,387,SECOND SEMESTER,2004,student asked insightful questions,82,2
+989,338,560,THIRD SEMESTER,2012,student arrived late to class,65,2
+990,259,712,SUMMER SEMESTER,2012,student worked well in group projects,72,1
+991,240,26,SECOND SEMESTER,2015,student asked insightful questions,37,1
+992,69,446,THIRD SEMESTER,2012,student arrived late to class,8,1
+993,660,189,THIRD SEMESTER,2016,student asked insightful questions,8,2
+994,626,697,SECOND SEMESTER,2009,student demonstrated strong understanding of the material,22,1
+995,305,884,WINTER SEMESTER,2016,student showed improvement in test scores,65,1
+996,813,90,SECOND SEMESTER,2013,student worked well in group projects,15,1
+997,134,215,THIRD SEMESTER,2017,student arrived late to class,64,1
+998,659,152,SECOND SEMESTER,2004,student needed extra help with the lesson,26,1
+999,982,73,SECOND SEMESTER,2004,student participated actively in discussion,39,2
+1000,791,58,SUMMER SEMESTER,0,student was absent without notice,62,2

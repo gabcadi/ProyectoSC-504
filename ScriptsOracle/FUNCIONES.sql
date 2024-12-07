@@ -35,14 +35,14 @@ BEGIN
         NOMBRE = P_NOMBRE,
         CREDITOS = P_CREDITOS,
         CUPOS = P_CUPOS,
-        FECHA_MODIFICACION = SYSTIMESTAMP -- Actualizamos la fecha de modificación
+        FECHA_MODIFICACION = SYSTIMESTAMP -- Actualizamos la fecha de modificaciï¿½n
     WHERE ID_CURSO = P_ID_CURSO;
 
-    -- Verificar si se actualizó algún registro
+    -- Verificar si se actualizÃ³ algÃºn registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Curso actualizado exitosamente';
     ELSE
-        RETURN 'No se encontró el curso con el ID especificado';
+        RETURN 'No se encontrÃ³ el curso con el ID especificado';
     END IF;
 END;
 
@@ -57,14 +57,14 @@ BEGIN
     -- Actualizar el estado del curso a 0
     UPDATE FIDE_CURSO_TB
     SET ID_ESTADO = 0, 
-        FECHA_MODIFICACION = SYSTIMESTAMP -- Actualizamos la fecha de modificación
+        FECHA_MODIFICACION = SYSTIMESTAMP -- Actualizamos la fecha de modificaciï¿½n
     WHERE ID_CURSO = P_ID_CURSO;
 
-    -- Verificar si se actualizó algún registro
+    -- Verificar si se actualizÃ³ algÃºn registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Estado del curso cambiado a INACTIVO (0) exitosamente';
     ELSE
-        RETURN 'No se encontró el curso con el ID especificado';
+        RETURN 'No se encontrÃ³ el curso con el ID especificado';
     END IF;
 END;
 /
@@ -117,7 +117,7 @@ CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_EDITAR_DOCENTE_FN (
 RETURN VARCHAR2
 IS
 BEGIN
-    -- Actualizar la información del docente
+    -- Actualizar la informaciÃ³n del docente
     UPDATE FIDE_USUARIO_TB
     SET 
         NOMBRE = P_NOMBRE,
@@ -129,14 +129,14 @@ BEGIN
         TELEFONO = P_TELEFONO,
         ID_DIRECCION = P_ID_DIRECCION,
         ID_ESPECIALIZACION = P_ID_ESPECIALIZACION,
-        FECHA_MODIFICACION = SYSTIMESTAMP  -- Actualizamos la fecha de modificación
+        FECHA_MODIFICACION = SYSTIMESTAMP  -- Actualizamos la fecha de modificaciÃ³n
     WHERE ID_USUARIO = P_ID_USUARIO;
 
-    -- Verificar si se actualizó algún registro
+    -- Verificar si se actualizÃ³ algÃºn registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Docente actualizado exitosamente';
     ELSE
-        RETURN 'No se encontró el docente con el ID especificado';
+        RETURN 'No se encontrÃ³ el docente con el ID especificado';
     END IF;
 END;
 
@@ -199,11 +199,11 @@ BEGIN
         ID_ESTADO = P_ID_ESTADO
     WHERE ID_HORARIO = P_ID_HORARIO;
 
-    -- Verificar si se actualizó algún registro
+    -- Verificar si se actualizÃ³ algÃºn registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Horario actualizado exitosamente';
     ELSE
-        RETURN 'No se encontró el horario con el ID especificado';
+        RETURN 'No se encontrÃ³ el horario con el ID especificado';
     END IF;
 END;
 /
