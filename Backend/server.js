@@ -314,21 +314,36 @@ app.get('/getCursosMatriculados/:idUsuario', async (req, res) => {
 });
 
 
-// Obtener cursos disponibles
 app.get('/getCursosDisponibles', async (req, res) => {
   try {
     const query = `
       SELECT 
-        ID_CURSO,
-        NOMBRE AS NOMBRE_CURSO,
-        CREDITOS,
-        CUPOS
+        c.ID_CURSO,
+        c.NOMBRE AS NOMBRE_CURSO,
+        c.CREDITOS,
+        c.CUPOS,
+        h.ID_HORARIO,
+        h.V_DIA_SEMANA,
+        h.V_TURNO,
+        a.NOMBRE_AULA
       FROM 
-        FIDE_CURSO_TB
+        FIDE_CURSO_TB c
+      JOIN 
+        FIDE_CURSOS_PLAN_TB cp ON c.ID_CURSO = cp.ID_CURSO
+      JOIN 
+        FIDE_PLAN_ESTUDIOS_TB p ON cp.ID_PLAN_ESTUDIOS = p.ID_PLAN_ESTUDIOS
+      LEFT JOIN 
+        FIDE_CURSO_HORARIO_TB ch ON c.ID_CURSO = ch.ID_CURSO
+      LEFT JOIN 
+        FIDE_HORARIO_TB h ON ch.ID_HORARIO = h.ID_HORARIO
+      LEFT JOIN 
+        FIDE_CURSO_AULA_TB ca ON ch.ID_CURSO = ca.ID_CURSO AND ch.ID_HORARIO = ca.ID_HORARIO
+      LEFT JOIN 
+        FIDE_AULAS_TB a ON ca.ID_AULA = a.ID_AULA
       WHERE 
-        ID_ESTADO = 1
+        c.ID_ESTADO = 1
       ORDER BY 
-        NOMBRE
+        c.NOMBRE
     `;
     const result = await executeQuery(query, [], { outFormat: oracledb.OBJECT });
     res.json(result);
@@ -340,7 +355,7 @@ app.get('/getCursosDisponibles', async (req, res) => {
 
 // Matricularse en un curso
 app.post('/matricularCurso', async (req, res) => {
-  const { idUsuario, idCurso } = req.body;
+  const { idUsuario, idCurso, idHorario } = req.body;
   try {
     const connection = await oracledb.getConnection(dbConfig);
 
@@ -366,31 +381,11 @@ app.post('/matricularCurso', async (req, res) => {
     // Insertar matrícula
     const queryMatricular = `
       INSERT INTO FIDE_HORARIO_MATRICULADO_TB (
-        FECHA_MATRICULA, ID_USUARIO, ID_CURSO, ID_ESTADO
-      ) VALUES (SYSDATE, :idUsuario, :idCurso, 1)
-    `;
-    await connection.execute(queryMatricular, [idUsuario, idCurso], { autoCommit: true });
-
-    await connection.close();
-    res.status(201).send('Matrícula exitosa');
-  } catch (err) {
-    console.error(err);
-    res.status(500).send('Error al matricular el curso');
-  }
-});
-
-// Matricularse en un curso
-app.post('/matricularCurso', async (req, res) => {
-  const { idUsuario, idCurso, idHorario } = req.body;
-  try {
-    const connection = await oracledb.getConnection(dbConfig);
-    const query = `
-      INSERT INTO FIDE_HORARIO_MATRICULADO_TB (
         FECHA_MATRICULA, ID_USUARIO, ID_CURSO, ID_HORARIO, ID_ESTADO
       ) VALUES (SYSDATE, :idUsuario, :idCurso, :idHorario, 1)
     `;
-    const binds = { idUsuario, idCurso, idHorario };
-    await connection.execute(query, binds, { autoCommit: true });
+    await connection.execute(queryMatricular, [idUsuario, idCurso, idHorario], { autoCommit: true });
+
     await connection.close();
     res.status(201).send('Matrícula exitosa');
   } catch (err) {
@@ -399,7 +394,91 @@ app.post('/matricularCurso', async (req, res) => {
   }
 });
 
-// ... código existente ...
+
+app.get('/getHorariosMatriculados/:idUsuario', async (req, res) => {
+  const { idUsuario } = req.params;
+  try {
+    const query = `
+      SELECT 
+        hm.ID_HORARIO_MATRICULADO,
+        c.NOMBRE AS NOMBRE_CURSO,
+        h.V_DIA_SEMANA,
+        h.V_TURNO,
+        a.NOMBRE_AULA,
+        hm.ID_CURSO,
+        hm.ID_HORARIO
+      FROM 
+        FIDE_HORARIO_MATRICULADO_TB hm
+      JOIN 
+        FIDE_CURSO_TB c ON hm.ID_CURSO = c.ID_CURSO
+      JOIN 
+        FIDE_HORARIO_TB h ON hm.ID_HORARIO = h.ID_HORARIO
+      LEFT JOIN 
+        FIDE_CURSO_AULA_TB ca ON hm.ID_CURSO = ca.ID_CURSO AND hm.ID_HORARIO = ca.ID_HORARIO
+      LEFT JOIN 
+        FIDE_AULAS_TB a ON ca.ID_AULA = a.ID_AULA
+      WHERE 
+        hm.ID_USUARIO = :idUsuario AND hm.ID_ESTADO = 1
+      ORDER BY 
+        c.NOMBRE
+    `;
+    const result = await executeQuery(query, [idUsuario], { outFormat: oracledb.OBJECT });
+    res.json(result);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Error al obtener los horarios matriculados' });
+  }
+});
+
+// Eliminar horario matriculado
+app.post('/eliminarHorarioMatriculado', async (req, res) => {
+  const { idHorarioMatriculado, idCurso } = req.body;
+  try {
+    const connection = await oracledb.getConnection(dbConfig);
+
+    // Actualizar estado del horario matriculado
+    const queryActualizarEstado = `
+      UPDATE FIDE_HORARIO_MATRICULADO_TB 
+      SET ID_ESTADO = 2 
+      WHERE ID_HORARIO_MATRICULADO = :idHorarioMatriculado
+    `;
+    await connection.execute(queryActualizarEstado, [idHorarioMatriculado], { autoCommit: false });
+
+    // Incrementar cupo del curso
+    const queryIncrementarCupo = `
+      UPDATE FIDE_CURSO_TB 
+      SET CUPOS = CUPOS + 1 
+      WHERE ID_CURSO = :idCurso
+    `;
+    await connection.execute(queryIncrementarCupo, [idCurso], { autoCommit: true });
+
+    await connection.close();
+    res.status(200).send('Horario eliminado exitosamente');
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error al eliminar el horario');
+  }
+});
+
+app.post('/editarCurso', async (req, res) => {
+  const { idCurso, nombre, creditos, cupos } = req.body;
+  try {
+    const query = `
+      UPDATE FIDE_CURSO_TB
+      SET NOMBRE = :nombre,
+          CREDITOS = :creditos,
+          CUPOS = :cupos
+      WHERE ID_CURSO = :idCurso
+    `;
+    await executeQuery(query, [nombre, creditos, cupos, idCurso], { autoCommit: true });
+    res.status(200).send('Curso actualizado exitosamente');
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Error al actualizar el curso' });
+  }
+});
+
+
 
 // Inicio del servidor
 const PORT = process.env.PORT || 5000;

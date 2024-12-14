@@ -9,7 +9,9 @@ export default function Matricula() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [mensaje, setMensaje] = useState("");
+  const [cursoToMatricular, setCursoToMatricular] = useState(null);
   const { user } = useContext(UserContext);
 
   useEffect(() => {
@@ -47,24 +49,37 @@ export default function Matricula() {
     fetchCursosMatriculados();
   }, [user.ID_USUARIO]);
 
-  const matricularCurso = async (idCurso) => {
+  const matricularCurso = async () => {
     try {
       await axios.post('http://localhost:5000/matricularCurso', {
         idUsuario: user.ID_USUARIO,
-        idCurso
+        idCurso: cursoToMatricular.ID_CURSO,
+        idHorario: cursoToMatricular.ID_HORARIO
       });
       setMensaje('Matrícula exitosa');
       setShowModal(true);
+      setShowConfirmModal(false);
       // Actualizar la lista de cursos después de la matrícula
       setCursos(cursos.map(curso => 
-        curso.ID_CURSO === idCurso ? { ...curso, CUPOS: curso.CUPOS - 1 } : curso
+        curso.ID_CURSO === cursoToMatricular.ID_CURSO ? { ...curso, CUPOS: curso.CUPOS - 1 } : curso
       ));
-      setCursosMatriculados([...cursosMatriculados, idCurso]);
+      setCursosMatriculados([...cursosMatriculados, cursoToMatricular.ID_CURSO]);
     } catch (err) {
       console.error('Error:', err);
       setMensaje('Error al matricular el curso');
       setShowModal(true);
+      setShowConfirmModal(false);
     }
+  };
+
+  const openConfirmModal = (curso) => {
+    setCursoToMatricular(curso);
+    setShowConfirmModal(true);
+  };
+
+  const closeConfirmModal = () => {
+    setShowConfirmModal(false);
+    setCursoToMatricular(null);
   };
 
   const closeModal = () => {
@@ -80,20 +95,27 @@ export default function Matricula() {
         {error && <p className="text-red-500">{error}</p>}
         {!loading && !error && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {cursos.map((curso) => (
-              <div key={curso.ID_CURSO} className="bg-white p-4 rounded-lg shadow-md">
-                <h2 className="text-xl font-bold mb-2">{curso.NOMBRE_CURSO}</h2>
-                <p><strong>Créditos:</strong> {curso.CREDITOS}</p>
-                <p><strong>Cupos:</strong> {curso.CUPOS}</p>
-                <button
-                  onClick={() => matricularCurso(curso.ID_CURSO)}
-                  className="mt-4 bg-teal-500 text-white py-2 px-4 rounded"
-                  disabled={curso.CUPOS <= 0 || cursosMatriculados.includes(curso.ID_CURSO)}
-                >
-                  {curso.CUPOS > 0 ? (cursosMatriculados.includes(curso.ID_CURSO) ? 'Ya se encuentra matriculado' : 'Matricular') : 'Sin Cupos'}
-                </button>
-              </div>
-            ))}
+            {cursos.map((curso) => {
+              const isMatriculado = cursosMatriculados.includes(curso.ID_CURSO);
+              const isSinCupos = curso.CUPOS <= 0;
+              return (
+                <div key={curso.ID_CURSO} className="bg-white p-4 rounded-lg shadow-md">
+                  <h2 className="text-xl font-bold mb-2">{curso.NOMBRE_CURSO}</h2>
+                  <p><strong>Carrera:</strong> {curso.NOMBRE_CARRERA}</p>
+                  <p><strong>Créditos:</strong> {curso.CREDITOS}</p>
+                  <p><strong>Cupos:</strong> {curso.CUPOS}</p>
+                  <p><strong>Horario:</strong> {curso.V_DIA_SEMANA} - {curso.V_TURNO}</p>
+                  <p><strong>Aula:</strong> {curso.NOMBRE_AULA || 'No asignada'}</p>
+                  <button
+                    onClick={() => openConfirmModal(curso)}
+                    className={`mt-4 py-2 px-4 rounded ${isMatriculado || isSinCupos ? 'bg-gray-400 cursor-not-allowed' : 'bg-green-500 text-white'}`}
+                    disabled={isMatriculado || isSinCupos}
+                  >
+                    {isMatriculado ? 'Ya Matriculado' : isSinCupos ? 'Sin Cupos' : 'Matricular'}
+                  </button>
+                </div>
+              );
+            })}
           </div>
         )}
         {showModal && (
@@ -107,6 +129,28 @@ export default function Matricula() {
               >
                 Cerrar
               </button>
+            </div>
+          </div>
+        )}
+        {showConfirmModal && (
+          <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center">
+            <div className="bg-white rounded-lg p-8 w-3/4 max-w-md">
+              <h2 className="text-xl font-bold mb-4">Confirmación</h2>
+              <p className="mb-4">¿Estás seguro de que deseas matricular este curso?</p>
+              <div className="flex justify-end">
+                <button
+                  onClick={closeConfirmModal}
+                  className="mr-4 bg-gray-500 text-white py-2 px-4 rounded"
+                >
+                  Cancelar
+                </button>
+                <button
+                  onClick={matricularCurso}
+                  className="bg-green-500 text-white py-2 px-4 rounded"
+                >
+                  Matricular
+                </button>
+              </div>
             </div>
           </div>
         )}

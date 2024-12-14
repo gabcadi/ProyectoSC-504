@@ -9,6 +9,7 @@ import HistorialAcademico from './pages/HistorialAcademico.jsx';
 import NotFound from './pages/NotFound.jsx';
 import RegistrarUsuario from './pages/RegistrarUsuario.jsx';
 import CambiarContrasena from './pages/CambiarContrasena.jsx';
+import GestionCursos from './pages/GestionCursos.jsx';
 import { UserProvider } from './hooks/UserContext';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/HistorialAcademico" element={<HistorialAcademico />} />
             <Route path="/RegistrarUsuario" element={<RegistrarUsuario />} />
             <Route path="/CambiarContrasena" element={<CambiarContrasena />} />
+            <Route path="/GestionCursos" element={<GestionCursos />} />
           </Routes>
         </Router>
         </UserProvider>
