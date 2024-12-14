@@ -41,8 +41,8 @@ BEGIN
     -- Retornar el ID del nuevo curso insertado
     RETURN V_ID_CURSO;
 END;
-
 /
+
 --- EDITAR CURSO ---
 CREATE OR REPLACE FUNCTION FIDE_CURSO_TB_EDITAR_CURSO_FN (
     P_ID_CURSO IN NUMBER,
@@ -62,15 +62,15 @@ BEGIN
         FECHA_MODIFICACION = SYSTIMESTAMP 
     WHERE ID_CURSO = P_ID_CURSO;
 
-    -- Verificar si se actualiz� alg�n registro
+    -- Verificar si se actualizó algún registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Curso actualizado exitosamente';
     ELSE
-        RETURN 'No se encontr� el curso con el ID especificado';
+        RETURN 'No se encontró el curso con el ID especificado';
     END IF;
 END;
-
 /
+
 --- CAMBIAR ESTADO ---
 CREATE OR REPLACE FUNCTION FIDE_CURSO_TB_OCULTAR_CURSO_FN (
     P_ID_CURSO IN NUMBER
@@ -84,14 +84,15 @@ BEGIN
         FECHA_MODIFICACION = SYSTIMESTAMP 
     WHERE ID_CURSO = P_ID_CURSO;
 
-    -- Verificar si se actualiz� alg�n registro
+    -- Verificar si se actualizó algún registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Estado del curso cambiado a INACTIVO (0) exitosamente';
     ELSE
-        RETURN 'No se encontr� el curso con el ID especificado';
+        RETURN 'No se encontró el curso con el ID especificado';
     END IF;
 END;
 /
+
 --- REGISTRAR USUARIO ---
 CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_REGISTRAR_USUARIO_FN (
     P_NOMBRE IN VARCHAR2,
@@ -123,8 +124,8 @@ BEGIN
     -- Retornar el ID del nuevo usuario
     RETURN V_ID_USUARIO;
 END;
-
 /
+
 --- EDITAR USUARIO ---
 CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_EDITAR_USUARIO_FN (
     P_ID_USUARIO IN NUMBER,
@@ -141,7 +142,7 @@ CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_EDITAR_USUARIO_FN (
 RETURN VARCHAR2
 IS
 BEGIN
-    -- Actualizar la informaci�n del usuario
+    -- Actualizar la información del usuario
     UPDATE FIDE_USUARIO_TB
     SET 
         NOMBRE = P_NOMBRE,
@@ -156,15 +157,15 @@ BEGIN
         FECHA_MODIFICACION = SYSTIMESTAMP 
     WHERE ID_USUARIO = P_ID_USUARIO;
 
-    -- Verificar si se actualiz� alg�n registro
+    -- Verificar si se actualizó algún registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Docente actualizado exitosamente';
     ELSE
-        RETURN 'No se encontr� el docente con el ID especificado';
+        RETURN 'No se encontró el docente con el ID especificado';
     END IF;
 END;
-
 /
+
 --- AGREGAR AULA ---
 CREATE OR REPLACE FUNCTION FIDE_AULAS_TB_AGREGAR_AULA_FN (
     P_NOMBRE_AULA IN VARCHAR2,
@@ -183,8 +184,8 @@ BEGIN
     -- Retornar el ID del nuevo aula
     RETURN V_ID_AULA;
 END;
-
 /
+
 --- AGREGAR UN NUEVO HORARIO ---
 CREATE OR REPLACE FUNCTION FIDE_HORARIO_TB_AGREGAR_HORARIO_FN (
     P_DIA_SEMANA IN VARCHAR2,
@@ -203,8 +204,8 @@ BEGIN
     -- Retornar el ID del nuevo horario
     RETURN V_ID_HORARIO;
 END;
-
 /
+
 --- EDITAR HORARIO ---
 CREATE OR REPLACE FUNCTION FIDE_HORARIO_TB_EDITAR_HORARIO_FN (
     P_ID_HORARIO IN NUMBER,
@@ -223,12 +224,257 @@ BEGIN
         ID_ESTADO = P_ID_ESTADO
     WHERE ID_HORARIO = P_ID_HORARIO;
 
-    -- Verificar si se actualiz� alg�n registro
+    -- Verificar si se actualizó algún registro
     IF SQL%ROWCOUNT > 0 THEN
         RETURN 'Horario actualizado exitosamente';
     ELSE
-        RETURN 'No se encontr� el horario con el ID especificado';
+        RETURN 'No se encontró el horario con el ID especificado';
     END IF;
+END;
+/
+
+--- ELIMINAR CURSO ---
+CREATE OR REPLACE FUNCTION FIDE_CURSO_TB_ELIMINAR_CURSO_FN (
+    P_ID_CURSO IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Eliminar el curso
+    DELETE FROM FIDE_CURSO_TB
+    WHERE ID_CURSO = P_ID_CURSO;
+
+    -- Verificar si se eliminó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Curso eliminado exitosamente';
+    ELSE
+        RETURN 'No se encontró el curso con el ID especificado';
+    END IF;
+END;
+/
+
+--- ELIMINAR USUARIO ---
+CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_ELIMINAR_USUARIO_FN (
+    P_ID_USUARIO IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Eliminar el usuario
+    DELETE FROM FIDE_USUARIO_TB
+    WHERE ID_USUARIO = P_ID_USUARIO;
+
+    -- Verificar si se eliminó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Usuario eliminado exitosamente';
+    ELSE
+        RETURN 'No se encontró el usuario con el ID especificado';
+    END IF;
+END;
+/
+
+--- ELIMINAR AULA ---
+CREATE OR REPLACE FUNCTION FIDE_AULAS_TB_ELIMINAR_AULA_FN (
+    P_ID_AULA IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Eliminar el aula
+    DELETE FROM FIDE_AULAS_TB
+    WHERE ID_AULA = P_ID_AULA;
+
+    -- Verificar si se eliminó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Aula eliminada exitosamente';
+    ELSE
+        RETURN 'No se encontró el aula con el ID especificado';
+    END IF;
+END;
+/
+
+--- ELIMINAR HORARIO ---
+CREATE OR REPLACE FUNCTION FIDE_HORARIO_TB_ELIMINAR_HORARIO_FN (
+    P_ID_HORARIO IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Eliminar el horario
+    DELETE FROM FIDE_HORARIO_TB
+    WHERE ID_HORARIO = P_ID_HORARIO;
+
+    -- Verificar si se eliminó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Horario eliminado exitosamente';
+    ELSE
+        RETURN 'No se encontró el horario con el ID especificado';
+    END IF;
+END;
+/
+
+--- CAMBIAR ESTADO AULA ---
+CREATE OR REPLACE FUNCTION FIDE_AULAS_TB_CAMBIAR_ESTADO_AULA_FN (
+    P_ID_AULA IN NUMBER,
+    P_ID_ESTADO IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Cambiar el estado del aula
+    UPDATE FIDE_AULAS_TB
+    SET ID_ESTADO = P_ID_ESTADO, 
+        FECHA_MODIFICACION = SYSTIMESTAMP 
+    WHERE ID_AULA = P_ID_AULA;
+
+    -- Verificar si se actualizó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Estado del aula cambiado exitosamente';
+    ELSE
+        RETURN 'No se encontró el aula con el ID especificado';
+    END IF;
+END;
+/
+
+--- CAMBIAR ESTADO USUARIO ---
+CREATE OR REPLACE FUNCTION FIDE_USUARIO_TB_CAMBIAR_ESTADO_USUARIO_FN (
+    P_ID_USUARIO IN NUMBER,
+    P_ID_ESTADO IN NUMBER
+) 
+RETURN VARCHAR2
+IS
+BEGIN
+    -- Cambiar el estado del usuario
+    UPDATE FIDE_USUARIO_TB
+    SET ID_ESTADO = P_ID_ESTADO, 
+        FECHA_MODIFICACION = SYSTIMESTAMP 
+    WHERE ID_USUARIO = P_ID_USUARIO;
+
+    -- Verificar si se actualizó algún registro
+    IF SQL%ROWCOUNT > 0 THEN
+        RETURN 'Estado del usuario cambiado exitosamente';
+    ELSE
+        RETURN 'No se encontró el usuario con el ID especificado';
+    END IF;
+END;
+/
+
+--- CONSULTAR TODOS LOS CURSOS ---
+CREATE OR REPLACE FUNCTION FIDE_CURSO_TB_CONSULTAR_CURSOS_FN 
+RETURN SYS_REFCURSOR
+IS
+    CURSOR cursos_cursor IS
+        SELECT * FROM FIDE_CURSO_TB;
+    V_CURSOS SYS_REFCURSOR;
+BEGIN
+    OPEN V_CURSOS FOR cursos_cursor;
+    RETURN V_CURSOS;
+END;
+/
+--- AGREGAR HORARIO MATRICULADO
+CREATE OR REPLACE FUNCTION FIDE_HORARIO_MATRICULADO_TB_INSERTAR_FN (
+    P_ID_USUARIO IN NUMBER,
+    P_ID_HORARIO IN NUMBER,
+    P_ID_CURSO IN NUMBER
+) RETURN NUMBER
+IS
+    V_ID_HORARIO_MATRICULADO NUMBER;
+BEGIN
+    INSERT INTO FIDE_HORARIO_MATRICULADO_TB (ID_USUARIO, ID_HORARIO, ID_CURSO)
+    VALUES (P_ID_USUARIO, P_ID_HORARIO, P_ID_CURSO)
+    RETURNING ID_HORARIO_MATRICULADO INTO V_ID_HORARIO_MATRICULADO;
+
+    RETURN V_ID_HORARIO_MATRICULADO;
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN -1; -- Indica error
+END;
+
+--- EDITAR HORARIO MATRICULADO
+CREATE OR REPLACE FUNCTION FIDE_HORARIO_MATRICULADO_TB_EDITAR_FN (
+    P_ID_HORARIO_MATRICULADO IN NUMBER,
+    P_ID_USUARIO IN NUMBER,
+    P_ID_HORARIO IN NUMBER,
+    P_ID_CURSO IN NUMBER
+) RETURN VARCHAR2
+IS
+BEGIN
+    UPDATE FIDE_HORARIO_MATRICULADO_TB
+    SET ID_USUARIO = P_ID_USUARIO,
+        ID_HORARIO = P_ID_HORARIO,
+        ID_CURSO = P_ID_CURSO
+    WHERE ID_HORARIO_MATRICULADO = P_ID_HORARIO_MATRICULADO;
+
+    RETURN 'Horario matriculado editado correctamente';
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN 'Error al editar el horario matriculado';
+END;
+
+--- ELIMINAR HORARIO MATRICULADO
+CREATE OR REPLACE FUNCTION FIDE_HORARIO_MATRICULADO_TB_ELIMINAR_FN (
+    P_ID_HORARIO_MATRICULADO IN NUMBER
+) RETURN VARCHAR2
+IS
+BEGIN
+    DELETE FROM FIDE_HORARIO_MATRICULADO_TB WHERE ID_HORARIO_MATRICULADO = P_ID_HORARIO_MATRICULADO;
+    RETURN 'Horario matriculado eliminado correctamente';
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN 'Error al eliminar el horario matriculado';
+END;
+
+--- AGREGAR ASIGNACIÓN DOCENTE
+CREATE OR REPLACE FUNCTION FIDE_ASIGNACION_DOCENTE_TB_INSERTAR_FN (
+    P_ID_USUARIO IN NUMBER,
+    P_ID_CURSO IN NUMBER,
+    P_ID_HORARIO IN NUMBER
+) RETURN NUMBER
+IS
+    V_ID_ASIGNACION NUMBER;
+BEGIN
+    INSERT INTO FIDE_ASIGNACION_DOCENTE_TB (ID_USUARIO, ID_CURSO, ID_HORARIO)
+    VALUES (P_ID_USUARIO, P_ID_CURSO, P_ID_HORARIO)
+    RETURNING ID_ASIGNACION INTO V_ID_ASIGNACION;
+
+    RETURN V_ID_ASIGNACION;
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN -1; -- Indica error
+END;
+
+--- EDITAR ASIGNACIÓN DOCENTE
+CREATE OR REPLACE FUNCTION FIDE_ASIGNACION_DOCENTE_TB_EDITAR_FN (
+    P_ID_ASIGNACION IN NUMBER,
+    P_ID_USUARIO IN NUMBER,
+    P_ID_CURSO IN NUMBER,
+    P_ID_HORARIO IN NUMBER
+) RETURN VARCHAR2
+IS
+BEGIN
+    UPDATE FIDE_ASIGNACION_DOCENTE_TB
+    SET ID_USUARIO = P_ID_USUARIO,
+        ID_CURSO = P_ID_CURSO,
+        ID_HORARIO = P_ID_HORARIO
+    WHERE ID_ASIGNACION = P_ID_ASIGNACION;
+
+    RETURN 'Asignación docente editada correctamente';
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN 'Error al editar la asignación docente';
+END;
+
+--- ELIMINAR ASIGNACIÓN DOCENTE
+CREATE OR REPLACE FUNCTION FIDE_ASIGNACION_DOCENTE_TB_ELIMINAR_FN (
+    P_ID_ASIGNACION IN NUMBER
+) RETURN VARCHAR2
+IS
+BEGIN
+    DELETE FROM FIDE_ASIGNACION_DOCENTE_TB WHERE ID_ASIGNACION = P_ID_ASIGNACION;
+    RETURN 'Asignación docente eliminada correctamente';
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN 'Error al eliminar la asignación docente';
 END;
 /
 

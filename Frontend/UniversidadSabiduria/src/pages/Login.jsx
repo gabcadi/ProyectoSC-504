@@ -64,8 +64,8 @@ export default function Login() {
 									Contraseña:
 								</label>
 								<div className="text-sm">
-									<a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-										¿Olvidaste tu contraseña?
+									<a href="/CambiarContrasena" className="font-semibold text-indigo-600 hover:text-indigo-500">
+										Cambia tu contraseña aquí
 									</a>
 								</div>
 							</div>
@@ -93,7 +93,7 @@ export default function Login() {
 					<p className="mt-10 text-center text-sm/6 text-gray-500">
 						¿No tienes usuario?{' '}
 						<a href="/RegistrarUsuario" className="font-semibold text-indigo-600 hover:text-indigo-500">
-							Contactá a soporte para obtener un usuario
+							Click aquí para registrarse
 						</a>
 					</p>
 				</div>

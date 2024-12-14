@@ -6,12 +6,7 @@ export default function SidebarNavigation() {
 	const [sidenav, setSidenav] = useState(true);
 	const { user } = useContext(UserContext);
 
-	function test() {
-		console.log(user);
-	}
-	test();
 	return (
-		
 		<div className="font-poppins antialiased flex flex-row">
 			<button
 				onClick={() => setSidenav(true)}
@@ -48,41 +43,67 @@ export default function SidebarNavigation() {
 						</div>
 					</div>
 					<div id="menu" className="flex flex-col space-y-2">
-						<Link to="/Perfil"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Mi perfil</span>
-						</Link>
-						<Link to="/PlanEstudios"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Plan de estudios</span>
-						</Link>
-						<Link to="/Matricula"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Matrícula en línea</span>
-						</Link>
-						<Link to="/CambioHorario"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Cambio Horario</span>
-						</Link>
-						<Link to="/Calificaciones"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-                            <span>Calificaciones</span>
-						</Link>
-						<Link to="/HistorialAcademico"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Historial Académico</span>
-						</Link>
-						<Link to="/Biblioteca"
-							className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
-						>
-							<span>Biblioteca</span>
-						</Link>
+						{user.TIPO_USUARIO === 'Estudiante' ? (
+							<>
+								<Link
+									to="/Perfil"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Mi perfil</span>
+								</Link>
+								<Link
+									to="/PlanEstudios"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Plan de estudios</span>
+								</Link>
+								<Link
+									to="/Matricula"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Matrícula en línea</span>
+								</Link>
+								<Link
+									to="/CambioHorario"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Cambio Horario</span>
+								</Link>
+								<Link
+									to="/HistorialAcademico"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Historial Académico</span>
+								</Link>
+							</>
+						) : user.TIPO_USUARIO === 'Docente' ? (
+							<>
+								<Link
+									to="/Perfil"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Mi perfil</span>
+								</Link>
+								<Link
+									to="/GestionCursos"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Gestión de Cursos</span>
+								</Link>
+								<Link
+									to="/Evaluaciones"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Evaluaciones</span>
+								</Link>
+								<Link
+									to="/Asistencia"
+									className="text-sm font-medium text-gray-700 py-2 px-2 hover:bg-teal-500 hover:text-white hover:scale-105 rounded-md transition duration-150 ease-in-out"
+								>
+									<span>Asistencia</span>
+								</Link>
+							</>
+						) : null}
 					</div>
 				</div>
 			</div>
