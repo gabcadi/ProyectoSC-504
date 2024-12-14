@@ -1,3 +1,6 @@
+
+
+
 -- Secuencia para los cursos
 CREATE SEQUENCE FIDE_CURSO_ID_CURSO_SEQ
 START WITH 1
